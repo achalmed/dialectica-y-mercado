@@ -1,0 +1,40 @@
+{
+  "index.qmd": {
+    "index.html": "d62ff133"
+  },
+  "posts/2023-05-19-seminario-de-filosofia-marxista/index.qmd": {
+    "index.html": "9444cf44",
+    "index.tex": "a2546588",
+    "index.docx": "39316804"
+  },
+  "posts/2023-06-09-entendiendo-a-mariategui/index.qmd": {
+    "index.html": "243e8ef7",
+    "index.tex": "35ccb1c1",
+    "index.docx": "53e2391f"
+  },
+  "posts/2023-06-09-naturaleza-humana/index.qmd": {
+    "index.html": "8dbee632",
+    "index.tex": "631848e9",
+    "index.docx": "0dd0eb17"
+  },
+  "posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.qmd": {
+    "index.html": "cc8be233",
+    "index.tex": "6f9d77b0",
+    "index.docx": "22e82b4a"
+  },
+  "posts/2018-04-23-aparicion-pensamiento-socialista/index.qmd": {
+    "index.html": "1e153b7f",
+    "index.tex": "c0ddfb74",
+    "index.docx": "9cf39e01"
+  },
+  "posts/2023-04-29-primero-de-mayo/index.qmd": {
+    "index.html": "8cb50dd7",
+    "index.tex": "781bb65c",
+    "index.docx": "82062bac"
+  },
+  "posts/2023-03-03-el-capitalismo/index.qmd": {
+    "index.html": "4e24f4ec",
+    "index.tex": "55b72426",
+    "index.docx": "6e40831e"
+  }
+}
