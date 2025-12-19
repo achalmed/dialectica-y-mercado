@@ -25,7 +25,8 @@ categories:
   - Filosofía
   - Marxismo
 tags:
-  - Filosofía
+  - filosofia
+  - marxismo
 
 # Nota del Autor
 author-note:

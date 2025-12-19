@@ -23,7 +23,8 @@ keywords: [keyword1, keyword2]
 categories:
   - Filosofia
 tags:
-  - EconomíaPolítica
+  - economia_politica
+  - filosofia
 
 # Nota del Autor
 author-note:

@@ -15,12 +15,9 @@ categories:
   - Salud Pública
   - Derechos Humanos
 tags:
-  - Aborto
-  - Inducido
-  - Embarazo
-  - Adolescente
-  - Riesgos
-  - Salud
+  - aborto
+  - salud
+  - filosofia
 author:
   - name: Edison Achalma
     url: https://achalmaedison.netlify.app

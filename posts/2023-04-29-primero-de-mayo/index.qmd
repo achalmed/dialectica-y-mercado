@@ -24,9 +24,7 @@ keywords: [keyword1, keyword2]
 categories:
   - Filosofia
 tags:
-  - PartidoComunistaDelPerú
-  - Revolución
-  - DíaDelProletariado
+  - filosofia
 author: Comité Central Partido Comunista del Perú
 
 # Nota del Autor

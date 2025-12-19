@@ -30,11 +30,8 @@ categories:
   - Comercio internacional  
   - Desarrollo económico
 tags:
-  - Mercantilismo  
-  - Superávit comercial  
-  - Políticas proteccionistas  
-  - Colonización  
-  - Acumulación de metales preciosos
+  - mercantilismo
+  - filosofia
 
 author:
   - name: Edison Achalma

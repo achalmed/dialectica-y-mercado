@@ -23,11 +23,7 @@ keywords: [human nature, philosophy, ethics, metaphysics, social implications]
 categories:
   - Filosofia
 tags:
-  - Rousseau  
-  - Hobbes  
-  - Marx  
-  - Hume  
-  - Freud
+  - filosofia
 
 # Nota del Autor
 author-note:

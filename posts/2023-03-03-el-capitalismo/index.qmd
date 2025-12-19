@@ -24,9 +24,8 @@ categories:
   - Filosofia
   - Economía
 tags:
-  - Capitalismo
-  - Desigualdad
-  - Pobreza
+  - capitalismo
+  - filosofia
 
 # Nota del Autor
 author-note:

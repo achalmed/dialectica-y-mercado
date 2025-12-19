@@ -24,10 +24,7 @@ categories:
   - Filosofia
   - Política
 tags:
-  -  Filosofía
-  -  Mariátegui
-  -  Revolución
-  -  IntelectualeRevolucionarios
+  - filosofia
 
 # Nota del Autor
 author-note:
