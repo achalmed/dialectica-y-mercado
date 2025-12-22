@@ -1,9 +1,8 @@
 ---
 copyrightnotice: 2023
 copyrightext: All rights reserved
-title: Naturaleza Humana
-subtitle: Perspectivas Filosóficas y Sus Implicaciones
-shorttitle: Naturaleza Humana y Filosofía
+title: La naturaleza humana
+shorttitle: NATURALEZA HUMANA Y FILOSOFÍA
 abstract: This article explores philosophical perspectives on human nature through
   the lenses of Rousseau, Hobbes, Marx, Hume, and Freud. It discusses whether humans
   are inherently good or bad, or if human nature is simply a product of circumstances.
@@ -47,6 +46,7 @@ citation:
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf
 date: 06/09/2023
 draft: false
+image: ../featured.jpg
 ---
 
 # Introducción

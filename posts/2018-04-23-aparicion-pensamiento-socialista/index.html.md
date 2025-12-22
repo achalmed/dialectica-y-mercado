@@ -1,9 +1,7 @@
 ---
 copyrightnotice: 2018
 copyrightext: All rights reserved
-title: Aparición del Pensamiento Socialista
-subtitle: Aparición del pensamiento socialista
-shorttitle: Editar
+title: Orígenes del pensamiento socialista
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
 keywords:
@@ -37,6 +35,7 @@ citation:
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2018-04-23-aparicion-pensamiento-socialista/index.pdf
 date: 04/23/2018
 draft: false
+image: ../featured.jpg
 ---
 
 # Presentación

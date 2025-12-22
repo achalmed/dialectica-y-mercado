@@ -1,10 +1,9 @@
 ---
 copyrightnotice: 2015
 copyrightext: All rights reserved
-image: featured.jpg
+image: ../featured.jpg
 title: El aborto
-subtitle: Consecuencias y Consideraciones Éticas en la Sociedad Contemporánea
-shorttitle: El Aborto
+shorttitle: EL ABORTO
 abstract: Este trabajo aborda el tema del aborto desde una perspectiva crítica y educativa,
   explorando sus causas, tipos y las graves consecuencias tanto físicas como psicológicas
   asociadas. Se analizan los miedos y presiones sociales que influyen en la decisión
@@ -22,29 +21,6 @@ tags:
 - aborto
 - salud
 - aborto
-author:
-- name: Edison Achalma
-  corresponding: true
-  orcid: 0000-0001-6996-3364
-  email: elmer.achalma.09@unsch.edu.pe
-  affiliations:
-  - name: Universidad Nacional de San Cristóbal de Huamanga
-    department: Economía
-    city: Ayacucho
-    region: PE
-  role:
-  - writing
-  - conceptualization
-- name: Yeno Areste
-  affiliations:
-  - name: Universidad Nacional de San Cristóbal de Huamanga
-  role:
-  - redacción
-- name: Cristían Galindo
-  affiliations:
-  - name: Universidad Nacional de San Cristóbal de Huamanga
-  role:
-  - redacción
 author-note:
   status-changes:
     affiliation-change: null
@@ -74,6 +50,29 @@ citation:
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf
 date: 05/14/2015
 draft: false
+author:
+- name: Edison Achalma
+  corresponding: true
+  orcid: 0000-0001-6996-3364
+  email: elmer.achalma.09@unsch.edu.pe
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+    department: Economía
+    city: Ayacucho
+    region: PE
+  role:
+  - writing
+  - conceptualization
+- name: Yeno Areste
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+  role:
+  - redacción
+- name: Cristían Galindo
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+  role:
+  - redacción
 ---
 
 En este trabajo he llevado a cabo el tema El Aborto, ya que en estos últimos años se ha visto el incremento de adolescentes que abortan no sólo en nuestro país ya que en España por ejemplo ha aumentado un 19% más últimamente por eso es muy importante para nosotros los estudiantes, informarnos para así valorar la importancia que tiene la vida, y que por más que a veces hagamos las cosas a la ligera también debemos pensar que tiene sus consecuencias y que por eso debemos ser responsables en tomar buenas decisiones ante un problema.

@@ -1,11 +1,8 @@
 ---
 copyrightnotice: 2023
 copyrightext: All rights reserved
-image: index_files/figure-html/DALL·E 2023-04-29 23.15.46.png
-image-alt: '¡En este primero de mayo: seguir sembrando revolución!'
-title: Día Internacional de los Trabajadores de mayo de 2023.
-subtitle: Mensaje del Primero de Mayo del Partido Comunista del Perú.
-shorttitle: Editar
+image: ../featured.jpg
+title: Significado histórico del Primero de Mayo
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
 keywords:
@@ -16,7 +13,6 @@ categories:
 tags:
 - filosofia
 - primero_mayo
-author: Comité Central Partido Comunista del Perú
 author-note:
   status-changes:
     affiliation-change: null
@@ -39,6 +35,8 @@ citation:
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-04-29-primero-de-mayo/index.pdf
 date: 04/29/2023
 draft: false
+author: Comité Central Partido Comunista del Perú
+image-alt: '¡En este primero de mayo: seguir sembrando revolución!'
 ---
 
 # ¡En este primero de mayo: seguir sembrando revolución!

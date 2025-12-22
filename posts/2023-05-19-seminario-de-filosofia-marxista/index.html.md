@@ -1,9 +1,7 @@
 ---
 copyrightnotice: 2023
 copyrightext: All rights reserved
-title: Seminario de filosofía
-subtitle: Notas sobre filosofía marxista
-shorttitle: Editar
+title: Seminario introductorio filosofía marxista
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
 keywords:
@@ -37,6 +35,7 @@ citation:
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-05-19-seminario-de-filosofia-marxista/index.pdf
 date: 05/19/2023
 draft: false
+image: ../featured.jpg
 ---
 
 # Introducción

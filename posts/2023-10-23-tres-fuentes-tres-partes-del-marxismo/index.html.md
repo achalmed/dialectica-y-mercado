@@ -1,9 +1,7 @@
 ---
 copyrightnotice: 2023
 copyrightext: All rights reserved
-title: Tres fuentes y tres partes del marxis
-subtitle: según Lenin
-shorttitle: Editar
+title: Las tres fuentes del marxismo
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
 keywords:
@@ -37,6 +35,7 @@ citation:
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf
 date: 10/23/2023
 draft: true
+image: ../featured.jpg
 ---
 
 # Explorando las Tres Fuentes y Tres Partes del Marxismo según Lenin

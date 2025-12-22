@@ -1,11 +1,7 @@
 ---
 copyrightnotice: 2023
 copyrightext: All rights reserved
-title: El legado revolucionario de Mariátegui. Siguiendo su camino hacia un futuro
-  transformado
-subtitle: Explorando el pensamiento y la acción de José Carlos Mariátegui para inspirar
-  el cambio social
-shorttitle: Editar
+title: Entendiendo el pensamiento de Mariátegui
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
 keywords:
@@ -38,6 +34,7 @@ citation:
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-06-09-entendiendo-a-mariategui/index.pdf
 date: 06/09/2023
 draft: false
+image: ../featured.jpg
 ---
 
 # Entendiendo a Mariátegui: una perspectiva profunda^[Este blog está inspirado en la conferencia del doctor Abimael Guzmán Reynoso dictada en el año 1968 en la Universidad Nacional de San Cristóbal de Huamanga de Ayacucho. Si bien el contenido se basa en el legado revolucionario de José Carlos Mariátegui, reconocemos la influencia de dicha conferencia en la exploración de las ideas presentadas.]

@@ -1,10 +1,7 @@
 ---
 copyrightnotice: 2023
 copyrightext: All rights reserved
-title: El capitalismo ¿Cáncer de nuestra era?
-subtitle: Reflexiones sobre la pobreza y la desigualdad en un sistema económico depredador
-  e injusto.
-shorttitle: Editar
+title: Análisis crítico del capitalismo actual
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
 keywords:
@@ -38,6 +35,7 @@ citation:
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-03-03-el-capitalismo/index.pdf
 date: 03/03/2023
 draft: false
+image: ../featured.jpg
 ---
 
 En 1987 el mundo tenía 1.5 billones de pobres (con menos de 1 dólar al día) en 2015 son 1.9 billones. El índice internacional de pobreza se ha modificado varias veces en nombre de buenas campañas de relaciones públicas para el world bank.

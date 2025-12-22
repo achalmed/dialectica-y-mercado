@@ -5,9 +5,8 @@ professor: Blanca Rivera Guillén
 duedate: 05/23/2017
 copyrightnotice: 2017
 copyrightext: All rights reserved
-title: El mercantilismo
-subtitle: Desarrollo económico en Europa
-shorttitle: Mercantilismo
+title: El mercantilismo como doctrina económica
+shorttitle: MERCANTILISMO
 abstract: This paper explores the mercantilist economic thought that emerged in Europe
   between the 16th and 18th centuries, a period marked by the transition from feudalism
   to national markets. Mercantilism, characterized by policies promoting trade surpluses
@@ -31,6 +30,37 @@ categories:
 tags:
 - mercantilismo
 - filosofia
+author-note:
+  status-changes:
+    affiliation-change: null
+    deceased: null
+  disclosures:
+    study-registration: null
+    data-sharing: null
+    related-report: null
+    conflict-of-interest: Los autores no tienen conflictos de intereses que revelar.
+    financial-support: null
+    gratitude: Si la voluntad es la fuerza motriz que impulsa al hombre, pues aquella
+      es quién hace al hombre. El trabajo va dirigido a los profesores que nos acompañan
+      a diario en nuestra formación profesional y a aquellas mujeres que son nuestra
+      inspiración diaria, nuestras madres.
+    authorship-agreements: null
+description: Características, representantes y críticas al mercantilismo como etapa
+  histórica del desarrollo capitalista y política económica estatal.
+eval: false
+citation:
+  type: article-journal
+  author:
+  - Edison Achalma
+  - Jeancarlos Alcarráz
+  - Félix Bermudo
+  - Jhony Conga
+  - Juan Curi
+  - Yuri Fernández
+  pdf-url: https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf
+date: 05/23/2017
+draft: false
+bibliography: mybibliography.bib
 author:
 - name: Edison Achalma
   corresponding: true
@@ -54,37 +84,7 @@ author:
   - name: Universidad Nacional de San Cristóbal de Huamanga
   role:
   - redacción
-author-note:
-  status-changes:
-    affiliation-change: null
-    deceased: null
-  disclosures:
-    study-registration: null
-    data-sharing: null
-    related-report: null
-    conflict-of-interest: Los autores no tienen conflictos de intereses que revelar.
-    financial-support: null
-    gratitude: Si la voluntad es la fuerza motriz que impulsa al hombre, pues aquella
-      es quién hace al hombre. El trabajo va dirigido a los profesores que nos acompañan
-      a diario en nuestra formación profesional y a aquellas mujeres que son nuestra
-      inspiración diaria, nuestras madres.
-    authorship-agreements: null
-citation:
-  type: article-journal
-  author:
-  - Edison Achalma
-  - Jeancarlos Alcarráz
-  - Félix Bermudo
-  - Jhony Conga
-  - Juan Curi
-  - Yuri Fernández
-  pdf-url: https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf
-bibliography: mybibliography.bib
-date: 05/23/2017
-draft: false
-description: Características, representantes y críticas al mercantilismo como etapa
-  histórica del desarrollo capitalista y política económica estatal.
-eval: false
+image: ../featured.jpg
 ---
 
 La edad media, dominada por formas de organización política feudal y un sistema económico señorial, y de escaso avance científico, empieza a romperse con la apertura de las rutas comerciales con el extremo oriente y con la intensa acumulación de metales preciosos de las naciones europeas, ocasionada por la conquista de América. La concepción mercantilista empieza en el siglo XVI, pero toma fuerza en el siglo XVII y abarca parte del siglo XVIII.
