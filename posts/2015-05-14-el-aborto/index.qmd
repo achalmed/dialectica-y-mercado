@@ -1,72 +1,78 @@
 ---
-copyrightnotice: 2025
+copyrightnotice: 2015
 copyrightext: All rights reserved
-image: featured.jpg
+image: ../featured.jpg
 title: El aborto
-subtitle: Consecuencias y Consideraciones Éticas en la Sociedad Contemporánea
-shorttitle: El Aborto
-abstract: Este trabajo aborda el tema del aborto desde una perspectiva crítica y educativa, explorando sus causas, tipos y las graves consecuencias tanto físicas como psicológicas asociadas. Se analizan los miedos y presiones sociales que influyen en la decisión de abortar, así como las implicaciones éticas y legales de este acto. El documento busca informar y reflexionar sobre el valor de la vida y las responsabilidades inherentes a la toma de decisiones en situaciones de embarazo no deseado, ofreciendo una visión integral que combina datos científicos, testimonios y consideraciones morales.
+shorttitle: EL ABORTO
+abstract: Este trabajo aborda el tema del aborto desde una perspectiva crítica y educativa,
+  explorando sus causas, tipos y las graves consecuencias tanto físicas como psicológicas
+  asociadas. Se analizan los miedos y presiones sociales que influyen en la decisión
+  de abortar, así como las implicaciones éticas y legales de este acto. El documento
+  busca informar y reflexionar sobre el valor de la vida y las responsabilidades inherentes
+  a la toma de decisiones en situaciones de embarazo no deseado, ofreciendo una visión
+  integral que combina datos científicos, testimonios y consideraciones morales.
 keywords:
-  - Aborto
-  - Adolescentes
-  - Consecuencias
+- Aborto
+- Adolescentes
+- Consecuencias
 categories:
-  - Posts
-  - Salud Pública
-  - Derechos Humanos
+- Posts
 tags:
-  - aborto
-  - salud
-  - filosofia
-author:
-  - name: Edison Achalma
-    url: https://achalmaedison.netlify.app
-    affiliation:
-      - id: unsch
-        name: Universidad Nacional de San Cristóbal de Huamanga
-        department: Economía
-    affiliation-url: https://www.gob.pe/unsch
-    orcid: 0000-0001-6996-3364
-    email: elmer.achalma.09@unsch.edu.pe
-    attributes:
-      corresponding: true
-      equal-contributor: true
-    roles:
-      - conceptualización
-      - redacción
-  - name: Yeno Areste
-    affiliations:
-      - ref: unsch
-    role:
-      - redacción
-  - name: Cristían Galindo
-    affiliations:
-      - ref: unsch
-    role:
-      - redacción
+- aborto
+- salud
+- aborto
 author-note:
   status-changes:
-    affiliation-change: 
-    deceased: 
+    affiliation-change: null
+    deceased: null
   disclosures:
-    study-registration: 
-    data-sharing: 
-    related-report: 
+    study-registration: null
+    data-sharing: null
+    related-report: null
     conflict-of-interest: Los autores no tienen conflictos de intereses que revelar.
-    financial-support: 
-    gratitude: Quiero agradecer a todos mis maestros ya que ellos me enseñan valorar los estudios y a superarme cada día, también agradezco a mis padres porque ellos están en los días más difíciles de mi vida como estudiante. Y agradezco a Dios por darme la salud que tengo, estoy seguro que mis metas planteadas darán fruto en el futuro y por ende me debo esforzar cada día para ser mejor en la universidad y en todo lugar sin olvidar el respeto que engrandece a la persona.
-    authorship-agreements: 
-description: ""
+    financial-support: null
+    gratitude: Quiero agradecer a todos mis maestros ya que ellos me enseñan valorar
+      los estudios y a superarme cada día, también agradezco a mis padres porque ellos
+      están en los días más difíciles de mi vida como estudiante. Y agradezco a Dios
+      por darme la salud que tengo, estoy seguro que mis metas planteadas darán fruto
+      en el futuro y por ende me debo esforzar cada día para ser mejor en la universidad
+      y en todo lugar sin olvidar el respeto que engrandece a la persona.
+    authorship-agreements: null
+description: Análisis del aborto, considerando derechos individuales, contexto social
+  en la sociedad actual.
 eval: false
 citation:
   type: article-journal
   author:
-    - Edison Achalma
-    - Yeno Areste
-    - Cristían Galindo
-  pdf-url: https://achalmaedison.netlify.app/blog/posts/2015-05-14-el-aborto/index.pdf
-date: 2015-05-14
+  - Edison Achalma
+  - Yeno Areste
+  - Cristían Galindo
+  pdf-url: https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf
+date: 05/14/2015
 draft: false
+author:
+- name: Edison Achalma
+  corresponding: true
+  orcid: 0000-0001-6996-3364
+  email: elmer.achalma.09@unsch.edu.pe
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+    department: Economía
+    city: Ayacucho
+    region: PE
+  role:
+  - writing
+  - conceptualization
+- name: Yeno Areste
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+  role:
+  - redacción
+- name: Cristían Galindo
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+  role:
+  - redacción
 ---
 
 En este trabajo he llevado a cabo el tema El Aborto, ya que en estos últimos años se ha visto el incremento de adolescentes que abortan no sólo en nuestro país ya que en España por ejemplo ha aumentado un 19% más últimamente por eso es muy importante para nosotros los estudiantes, informarnos para así valorar la importancia que tiene la vida, y que por más que a veces hagamos las cosas a la ligera también debemos pensar que tiene sus consecuencias y que por eso debemos ser responsables en tomar buenas decisiones ante un problema.

@@ -1,117 +1,90 @@
 ---
-# documentmode: jou  # Modo de documento: Can be jou (journal), man (manuscript), stu (student), or doc (document)
-    # - man (Manuscrito): Similar al formato .docx
-    # - jou (Revista): Un formato pulido de dos columnas similar a muchas revistas APA.
-    # - doc (Documento): Similar al predeterminado LaTex artículos.
-    # - stu (Estudiante): Formateado para trabajos de estudiantes
-# MODO ESTUDIANTE (STU)
+documentmode: stu
 course: Metodología (EDUC 5101)
 professor: Blanca Rivera Guillén
 duedate: 05/23/2017
-# MODO REVISTA (JOU)
-# journal: Psychological Review
-# volume: 2025, Vol. 131, No. 2, 10--60
-copyrightnotice: 2025
+copyrightnotice: 2017
 copyrightext: All rights reserved
-# image: featured.png
-title: El mercantilismo
-subtitle: Desarrollo económico en Europa
-shorttitle: "Mercantilismo"
-abstract: "This paper explores the mercantilist economic thought that emerged in Europe between the 16th and 18th centuries, a period marked by the transition from feudalism to national markets. Mercantilism, characterized by policies promoting trade surpluses and protectionism, aimed to strengthen nation-states through the accumulation of precious metals and the regulation of international trade. The study examines its historical context, key principles such as the emphasis on exports over imports, and its lasting contributions, including the concept of balance of payments. It also analyzes how mercantilist ideas influenced the development of internal markets, colonial exploitation, and early capitalism. Drawing from historical texts, the paper highlights the role of merchants and governments in shaping economic policies and their relevance in modern trade debates. The findings underscore mercantilism’s impact on economic nationalism and its enduring legacy in global commerce."
+title: El mercantilismo como doctrina económica
+shorttitle: MERCANTILISMO
+abstract: This paper explores the mercantilist economic thought that emerged in Europe
+  between the 16th and 18th centuries, a period marked by the transition from feudalism
+  to national markets. Mercantilism, characterized by policies promoting trade surpluses
+  and protectionism, aimed to strengthen nation-states through the accumulation of
+  precious metals and the regulation of international trade. The study examines its
+  historical context, key principles such as the emphasis on exports over imports,
+  and its lasting contributions, including the concept of balance of payments. It
+  also analyzes how mercantilist ideas influenced the development of internal markets,
+  colonial exploitation, and early capitalism. Drawing from historical texts, the
+  paper highlights the role of merchants and governments in shaping economic policies
+  and their relevance in modern trade debates. The findings underscore mercantilism’s
+  impact on economic nationalism and its enduring legacy in global commerce.
 keywords:
-  -  mercantilism
-  -  trade surplus
-  -  protectionism
-  -  economic nationalism
-  -  balance of payments  
+- mercantilism
+- trade surplus
+- protectionism
+- economic nationalism
+- balance of payments
 categories:
-  - Posts
-  - Historia del pensamiento económico  
-  - Comercio internacional  
-  - Desarrollo económico
+- Historia del pensamiento económico
 tags:
-  - mercantilismo
-  - filosofia
-
-author:
-  - name: Edison Achalma
-    corresponding: true
-    orcid: 0000-0001-6996-3364
-    email: elmer.achalma.09@unsch.edu.pe
-    affiliations:
-      - id: unsch
-      - name: Universidad Nacional de San Cristóbal de Huamanga
-        department: Economía
-        # address: Portal Independencia N 57
-        city: Ayacucho
-        region: PE
-        postal-code:
-    role:
-      - redacción
-      - conceptualización
-  - name: Jeancarlos Alcarráz
-    affiliations:
-      - ref: unsch
-    role:
-      - redacción
-  - name: Félix Bermudo
-    affiliations:
-      - ref: unsch
-    role:
-      - redacción
-  - name: Jhony Conga
-    affiliations:
-      - ref: unsch
-    role:
-      - redacción
-  - name: Juan Curi
-    affiliations:
-      - ref: unsch
-    role:
-      - redacción
-  - name: Yuri Fernández
-    affiliations:
-      - ref: unsch
-    role:
-      - redacción
-# Nota del Autor
+- mercantilismo
+- filosofia
 author-note:
-  status-changes: 
-    # Ejemplo: [Nombre del autor] está ahora en [afiliación].
-    affiliation-change: ~
-    # Ejemplo: [Nombre del autor] ha fallecido.
-    deceased: ~
-  # Las divulgaciones se condensan en un párrafo, pero puede iniciar un campo con dos saltos de línea para separarlas: \n\nNew 
+  status-changes:
+    affiliation-change: null
+    deceased: null
   disclosures:
-    # Ejemplo: Este estudio se registró en X (Identificador Y).
-    study-registration: ~
-    # Reconozca y cite los datos/materiales que se van a compartir.
-    data-sharing: ~
-    # Ejemplo: Este artículo se basa en datos publicados en [Referencia].
-    # Ejemplo: Este artículo se basa en la disertación realizada por [cita].
-    related-report: ~
-    # Ejemplo: [Nombre del autor] ha sido consultor remunerado de la Corporación X, que ha financiado este estudio.
+    study-registration: null
+    data-sharing: null
+    related-report: null
     conflict-of-interest: Los autores no tienen conflictos de intereses que revelar.
-    # Ejemplo: Este estudio ha contado con el apoyo de la subvención [Número de subvención] de [Fuente de financiación].
-    financial-support: ~
-    # Ejemplo: Los autores agradecen a [Persona] por [Motivo].
-    gratitude: Si la voluntad es la fuerza motriz que impulsa al hombre, pues aquella es quién hace al hombre. El trabajo va dirigido a los profesores que nos acompañan a diario en nuestra formación profesional y a aquellas mujeres que son nuestra inspiración diaria, nuestras madres.
-    # Ejemplo. Dado que los autores contribuyen por igual, el orden de autoría se determinó mediante el lanzamiento de una moneda al aire.
-    authorship-agreements: ~
-# Google Scholar
+    financial-support: null
+    gratitude: Si la voluntad es la fuerza motriz que impulsa al hombre, pues aquella
+      es quién hace al hombre. El trabajo va dirigido a los profesores que nos acompañan
+      a diario en nuestra formación profesional y a aquellas mujeres que son nuestra
+      inspiración diaria, nuestras madres.
+    authorship-agreements: null
+description: Características, representantes y críticas al mercantilismo como etapa
+  histórica del desarrollo capitalista y política económica estatal.
+eval: false
 citation:
   type: article-journal
   author:
-    - Edison Achalma
-    - Jeancarlos Alcarráz
-    - Félix Bermudo
-    - Jhony Conga
-    - Juan Curi
-    - Yuri Fernández
-  pdf-url: https://achalmaedison.netlify.app/blog/posts/2017-05-23-el-mercantilismo/index.pdf
-bibliography: mybibliography.bib
+  - Edison Achalma
+  - Jeancarlos Alcarráz
+  - Félix Bermudo
+  - Jhony Conga
+  - Juan Curi
+  - Yuri Fernández
+  pdf-url: https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf
 date: 05/23/2017
 draft: false
+bibliography: mybibliography.bib
+author:
+- name: Edison Achalma
+  corresponding: true
+  orcid: 0000-0001-6996-3364
+  email: elmer.achalma.09@unsch.edu.pe
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+    department: Economía
+    city: Ayacucho
+    region: PE
+  role:
+  - redacción
+  - conceptualización
+- name: Jeancarlos Alcarráz
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+  role:
+  - redacción
+- name: Félix Bermudo
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+  role:
+  - redacción
+image: ../featured.jpg
 ---
 
 La edad media, dominada por formas de organización política feudal y un sistema económico señorial, y de escaso avance científico, empieza a romperse con la apertura de las rutas comerciales con el extremo oriente y con la intensa acumulación de metales preciosos de las naciones europeas, ocasionada por la conquista de América. La concepción mercantilista empieza en el siglo XVI, pero toma fuerza en el siglo XVII y abarca parte del siglo XVIII.

@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -115,13 +114,11 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
@@ -137,20 +134,24 @@ Contemporánea}
 
 
 
-\ccoppy{\textcopyright~2025}
+\ccoppy{\textcopyright~2015}
 
 
 
 
 
-\authorsnames{Edison Achalma,Yeno Areste,Cristían Galindo}
+
+\authorsnames[{1},{2},{2}]{Edison Achalma,Yeno Areste,Cristían Galindo}
 
 
 
 
 
-\affiliation{
-{Economía, Universidad Nacional de San Cristóbal de Huamanga}}
+
+
+\authorsaffiliations{
+{Economía, Universidad Nacional de San Cristóbal de
+Huamanga},{Universidad Nacional de San Cristóbal de Huamanga}}
 
 
 
@@ -184,7 +185,7 @@ debo esforzar cada día para ser mejor en la universidad y en todo lugar
 sin olvidar el respeto que engrandece a la persona.  Los roles de autor
 se clasificaron utilizando la taxonomía de roles de colaborador (CRediT;
 https://credit.niso.org/) de la siguiente manera:  Edison
-Achalma:   conceptualización, redacción; Yeno
+Achalma:   writing, conceptualization; Yeno
 Areste:   redacción; Cristían Galindo:   redacción}
 \par{La correspondencia relativa a este artículo debe dirigirse a Edison
 Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@unsch.edu.pe}}
@@ -244,14 +245,14 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -268,7 +269,7 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -314,14 +315,17 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
 \section[Introduction]{El aborto}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
+
+
 
 
 En este~trabajo~he llevado a cabo el tema~El Aborto, ya que en estos
@@ -469,41 +473,41 @@ algunas sugerencias:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \href{https://achalmaedison.netlify.app/blog/posts/2015-05-14-el-aborto/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2015-05-14-el-aborto}{El
+  \href{https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto}{El
   Aborto}
 \item
-  \href{https://achalmaedison.netlify.app/blog/posts/2017-04-23-sitios-web-asombrosos/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2017-04-23-sitios-web-asombrosos}{Sitios
-  Web Asombrosos}
-\item
-  \href{https://achalmaedison.netlify.app/blog/posts/2017-05-23-el-mercantilismo/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2017-05-23-el-mercantilismo}{El
+  \href{https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo}{El
   Mercantilismo}
 \item
-  \href{https://achalmaedison.netlify.app/blog/posts/2020-05-23-comandos-de-google-assistant/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2020-05-23-comandos-de-google-assistant}{Comandos
-  De Google Assistant}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2018-04-23-aparicion-pensamiento-socialista/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2018-04-23-aparicion-pensamiento-socialista}{Aparicion
+  Pensamiento Socialista}
 \item
-  \href{https://achalmaedison.netlify.app/blog/posts/2021-07-14-comandos-de-blogdown/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2021-07-14-comandos-de-blogdown}{Comandos
-  De Blogdown}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-03-03-el-capitalismo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-03-03-el-capitalismo}{El
+  Capitalismo}
 \item
-  \href{https://achalmaedison.netlify.app/blog/posts/2022-04-22-economia-agraria/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2022-04-22-economia-agraria}{Economia
-  Agraria}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-04-29-primero-de-mayo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-04-29-primero-de-mayo}{Primero
+  De Mayo}
 \item
-  \href{https://achalmaedison.netlify.app/blog/posts/2022-06-02-impacto-del-cambio-climatico/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2022-06-02-impacto-del-cambio-climatico}{Impacto
-  Del Cambio Climatico}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-05-19-seminario-de-filosofia-marxista/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-05-19-seminario-de-filosofia-marxista}{Seminario
+  De Filosofia Marxista}
 \item
-  \href{https://achalmaedison.netlify.app/blog/posts/2023-05-12-la-economia-peruana-entre-1970-1990/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2023-05-12-la-economia-peruana-entre-1970-1990}{La
-  Economia Peruana Entre 1970 1990}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-06-09-entendiendo-a-mariategui/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-06-09-entendiendo-a-mariategui}{Entendiendo
+  A Mariategui}
 \item
-  \href{https://achalmaedison.netlify.app/blog/posts/2023-05-16-economia-regional/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/blog/posts/2023-05-16-economia-regional}{Economia
-  Regional}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana}{Naturaleza
+  Humana}
+\item
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo}{Tres
+  Fuentes Tres Partes Del Marxismo}
 \end{enumerate}
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y

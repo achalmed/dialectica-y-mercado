@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -115,13 +114,11 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
@@ -156,7 +153,8 @@ del Primero de Mayo del Partido Comunista del Perú.}
 \date{2023-04-29}
 
 
-\abstract{Primer parrafo de abstrac }
+\abstract{Este abstract será actualizado una vez que se complete el
+contenido final del artículo. }
 
 \keywords{keyword1, keyword2}
 
@@ -220,14 +218,14 @@ del Primero de Mayo del Partido Comunista del Perú.}
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -244,7 +242,7 @@ del Primero de Mayo del Partido Comunista del Perú.}
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -290,15 +288,18 @@ del Primero de Mayo del Partido Comunista del Perú.}
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
 \section[Introduction]{Día Internacional de los Trabajadores de mayo de
 2023.}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
+
+
 
 
 \section{¡En este primero de mayo: seguir sembrando
@@ -472,32 +473,40 @@ algunas sugerencias:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2018-04-23-aparicion-pensamiento-socialista/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2018-04-23-aparicion-pensamiento-socialista}{Aparicion
+  \href{https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto}{El
+  Aborto}
+\item
+  \href{https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo}{El
+  Mercantilismo}
+\item
+  \href{https://dialectica-y-mercado.netlify.app/posts/2018-04-23-aparicion-pensamiento-socialista/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2018-04-23-aparicion-pensamiento-socialista}{Aparicion
   Pensamiento Socialista}
 \item
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-03-03-el-capitalismo/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-03-03-el-capitalismo}{El
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-03-03-el-capitalismo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-03-03-el-capitalismo}{El
   Capitalismo}
 \item
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-04-29-primero-de-mayo/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-04-29-primero-de-mayo}{Primero
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-04-29-primero-de-mayo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-04-29-primero-de-mayo}{Primero
   De Mayo}
 \item
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-05-19-seminario-de-filosofia-marxista/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-05-19-seminario-de-filosofia-marxista}{Seminario
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-05-19-seminario-de-filosofia-marxista/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-05-19-seminario-de-filosofia-marxista}{Seminario
   De Filosofia Marxista}
 \item
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-06-09-entendiendo-a-mariategui/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-06-09-entendiendo-a-mariategui}{Entendiendo
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-06-09-entendiendo-a-mariategui/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-06-09-entendiendo-a-mariategui}{Entendiendo
   A Mariategui}
 \item
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-06-09-naturaleza-humana/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-06-09-naturaleza-humana}{Naturaleza
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana}{Naturaleza
   Humana}
 \item
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf}{\faIcon{file-pdf}}
-  \href{https://achalmaedison.netlify.app/filosofia-politica/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo}{Tres
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf}{\faIcon{file-pdf}}
+  \href{https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo}{Tres
   Fuentes Tres Partes Del Marxismo}
 \end{enumerate}
 

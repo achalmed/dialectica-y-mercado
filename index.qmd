@@ -37,7 +37,7 @@ draft: false  # Modo de borrador solo esta pagina (false = final, true = borrado
 format: 
   html: 
     page-layout: full
-title-block-banner: fa
+title-block-banner: false
 
 header-includes: >
   <link rel="stylesheet" href="assets/listing-default.css">

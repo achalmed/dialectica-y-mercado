@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,22 +31,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/img/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-cd918b563e4f768957f23be5314ee61b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-092403fec9bcbc50b0bb9dfc088d57e2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a04b885fc98d199d60c38db527abd914.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,21 +103,13 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XGH6TP6RB3"></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-XGH6TP6RB3', { 'anonymize_ip': true});
-</script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: fa;
-      }
-</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGKRPKHD');</script>
+<!-- End Google Tag Manager -->
 <link rel="stylesheet" href="assets/listing-default.css">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -134,7 +126,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -150,29 +142,23 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Edison Achalma B.Sc. Econ." href="index.xml" data-external="1"><meta property="og:title" content="Filosofía y política – Edison Achalma B.Sc. Econ.">
-<meta property="og:description" content="Este es mi blog donde practico compartir mi curiosidad. Incluye notas y tutoriales para mi futuro y espero que también para ti.  Sign up for my newsletter to receive updates about new posts.">
-<meta property="og:image" content="https://achalmaedison.netlify.app/posts/2023-04-29-primero-de-mayo/index_files/figure-html/DALL·E 2023-04-29 23.15.46.png">
-<meta property="og:site_name" content="AchalmaEdison">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="alternate" type="application/rss+xml" title="Edison Achalma B.Sc. Econ." href="index.xml" data-external="1"><meta property="og:title" content="Edison Achalma B.Sc. Econ.">
+<meta property="og:description" content="Investigador y educador que aplica la ciencia de datos de forma que se dé prioridad a la equidad social.">
+<meta property="og:image" content="https://dialectica-y-mercado.netlify.app//assets/img/sidebar.jpg">
+<meta property="og:site_name" content="Actus mercator">
 <meta property="og:locale" content="es_ES">
-<meta property="og:image:alt" content="¡En este primero de mayo: seguir sembrando revolución!">
-<meta property="og:image:height" content="576">
-<meta property="og:image:width" content="1024">
 <meta name="twitter:title" content="Filosofía y política – Edison Achalma B.Sc. Econ.">
 <meta name="twitter:description" content="Este es mi blog donde practico compartir mi curiosidad. Incluye notas y tutoriales para mi futuro y espero que también para ti.  Sign up for my newsletter to receive updates about new posts.">
-<meta name="twitter:image" content="https://achalmaedison.netlify.app/posts/2023-04-29-primero-de-mayo/index_files/figure-html/DALL·E 2023-04-29 23.15.46.png">
+<meta name="twitter:image" content="https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/featured.jpg">
 <meta name="twitter:creator" content="@achalmaedison">
-<meta name="twitter:image:alt" content="¡En este primero de mayo: seguir sembrando revolución!">
-<meta name="twitter:image-height" content="576">
-<meta name="twitter:image-width" content="1024">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -190,6 +176,59 @@ window.Quarto = {
     <a class="nav-link" href="https://achalmaedison.netlify.app/about/"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-ellipsis-h" role="img" aria-label="More">
+</i> 
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="https://epsilon-y-beta.netlify.app/">
+ <span class="dropdown-text">Econometria</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://dialectica-y-mercado.netlify.app/">
+ <span class="dropdown-text">Filosofía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://pecunia-fluxus.netlify.app/">
+ <span class="dropdown-text">Finanzas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://actus-mercator.netlify.app/">
+ <span class="dropdown-text">Gestión empresarial</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://res-publica.netlify.app/">
+ <span class="dropdown-text">Gestión pública</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://methodica.netlify.app/">
+ <span class="dropdown-text">Metodología de la investigación</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://aequilibria.netlify.app/">
+ <span class="dropdown-text">Macroeconomía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://axiomata.netlify.app/">
+ <span class="dropdown-text">Matemáticas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://optimums.netlify.app/">
+ <span class="dropdown-text">Microeconomía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://numerus-scriptum.netlify.app/">
+ <span class="dropdown-text">Programación y Software</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://chaska-x.netlify.app/">
+ <span class="dropdown-text">Seguridad informática</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/achalmed"> <i class="bi bi-github" role="img">
 </i> 
@@ -200,44 +239,51 @@ window.Quarto = {
 </i> 
 <span class="menu-text"></span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="198edcd182a186efde93855487f89d6b" class="alert alert-primary hidden"><i class="bi bi-gift quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>¡Bienvenidos a mi mundo! ¡Felices fiestas! Gracias por visitar 🎄</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Filosofía y política</h1>
-                  <div>
-        <div class="description">
-          <p>Este es mi blog donde practico compartir mi curiosidad.<br> Incluye notas y tutoriales para mi futuro y espero que también para ti.<br><br> <i class="fa-solid fa-envelope" aria-label="envelope"></i> Sign up for my <a href="https://achalmaedison.netlify.app/contact#buttondown">newsletter</a> to receive updates about new posts.</p>
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Filosofía y política</h1>
+</div>
+
+<div>
+  <div class="description">
+    <p>Este es mi blog donde practico compartir mi curiosidad.<br> Incluye notas y tutoriales para mi futuro y espero que también para ti.<br><br> <i class="fa-solid fa-envelope" aria-label="envelope"></i> Sign up for my <a href="https://achalmaedison.netlify.app/contact#buttondown">newsletter</a> to receive updates about new posts.</p>
+  </div>
+</div>
 
 
+<div class="quarto-title-meta column-page">
 
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="achalmaedison" data-description="Support me on Buy me a coffee!" data-message="¡Apóyame con un café! ☕✨
@@ -248,10 +294,10 @@ Si disfrutas mis blogs y artículos sobre economía, finanzas y análisis de dat
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-ultimas-entradas">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1686286800000" data-listing-file-modified-sort="1752735978823" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="17" data-listing-word-count-sort="3264">
+<div class="quarto-post image-right" data-index="0" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1686286800000" data-listing-file-modified-sort="1766388124723" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="17" data-listing-word-count-sort="3264">
 <div class="thumbnail"><a href="./posts/2023-06-09-naturaleza-humana/index.html" class="no-external">
 
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="assets/img/sidebar.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
@@ -259,7 +305,7 @@ Si disfrutas mis blogs y artículos sobre economía, finanzas y análisis de dat
 <a href="./posts/2023-06-09-naturaleza-humana/index.html" class="no-external">Naturaleza Humana</a>
 </h3>
 <div class="delink listing-description"><a href="./posts/2023-06-09-naturaleza-humana/index.html" class="no-external">
-<p>Este artículo explora las perspectivas filosóficas sobre la naturaleza humana a través de las lentes de Rousseau, Hobbes, Marx, Hume y Freud.</p>
+<p>Reflexión filosófica sobre la naturaleza humana en el materialismo dialéctico, su historicidad y relación con las condiciones materiales de existencia.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -274,10 +320,10 @@ Edison Achalma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Rmlsb3NvZmlhJTJDUG9sJUMzJUFEdGljYQ==" data-listing-date-sort="1686286800000" data-listing-file-modified-sort="1744921215666" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="18" data-listing-word-count-sort="3566">
+<div class="quarto-post image-right" data-index="1" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1686286800000" data-listing-file-modified-sort="1766387898742" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="18" data-listing-word-count-sort="3566">
 <div class="thumbnail"><a href="./posts/2023-06-09-entendiendo-a-mariategui/index.html" class="no-external">
 
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="assets/img/sidebar.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
@@ -285,7 +331,7 @@ Edison Achalma
 <a href="./posts/2023-06-09-entendiendo-a-mariategui/index.html" class="no-external">El legado revolucionario de Mariátegui. Siguiendo su camino hacia un futuro transformado</a>
 </h3>
 <div class="delink listing-description"><a href="./posts/2023-06-09-entendiendo-a-mariategui/index.html" class="no-external">
-<p>Primer parrafo de abstrac</p>
+<p>Análisis de las contribuciones de José Carlos Mariátegui al marxismo latinoamericano, el problema indígena y el socialismo peruano posible.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -300,10 +346,10 @@ Edison Achalma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Rmlsb3NvZmlhJTJDRmlsb3NvZiVDMyVBRGElMkNNYXJ4aXNtbw==" data-listing-date-sort="1684472400000" data-listing-file-modified-sort="1744921215666" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="31" data-listing-word-count-sort="6072">
+<div class="quarto-post image-right" data-index="2" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1684472400000" data-listing-file-modified-sort="1766388106664" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="31" data-listing-word-count-sort="6072">
 <div class="thumbnail"><a href="./posts/2023-05-19-seminario-de-filosofia-marxista/index.html" class="no-external">
 
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="assets/img/sidebar.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
@@ -311,7 +357,7 @@ Edison Achalma
 <a href="./posts/2023-05-19-seminario-de-filosofia-marxista/index.html" class="no-external">Seminario de filosofía</a>
 </h3>
 <div class="delink listing-description"><a href="./posts/2023-05-19-seminario-de-filosofia-marxista/index.html" class="no-external">
-<p>Primer parrafo de abstrac</p>
+<p>Resumen de temas tratados en seminario sobre materialismo dialéctico, histórico y principales categorías del marxismo como herramienta analítica.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -326,7 +372,7 @@ Edison Achalma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1682744400000" data-listing-file-modified-sort="1744921215662" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1173">
+<div class="quarto-post image-right" data-index="3" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1682744400000" data-listing-file-modified-sort="1766387898715" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1173">
 <div class="thumbnail"><a href="./posts/2023-04-29-primero-de-mayo/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2023-04-29-primero-de-mayo/index_files/figure-html/DALL·E 2023-04-29 23.15.46.png" class="thumbnail-image" alt="¡En este primero de mayo: seguir sembrando revolución!">
@@ -337,7 +383,7 @@ Edison Achalma
 <a href="./posts/2023-04-29-primero-de-mayo/index.html" class="no-external">Día Internacional de los Trabajadores de mayo de 2023.</a>
 </h3>
 <div class="delink listing-description"><a href="./posts/2023-04-29-primero-de-mayo/index.html" class="no-external">
-<p>Primer parrafo de abstrac</p>
+<p>Historia de la lucha obrera por la jornada de 8 horas, los mártires de Chicago y la relevancia actual del Día Internacional de los Trabajadores.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -352,10 +398,10 @@ Edison Achalma, Comité Central Partido Comunista del Perú
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Rmlsb3NvZmlhJTJDRWNvbm9tJUMzJUFEYQ==" data-listing-date-sort="1677819600000" data-listing-file-modified-sort="1744921215661" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="335">
+<div class="quarto-post image-right" data-index="4" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1677819600000" data-listing-file-modified-sort="1766387898701" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="335">
 <div class="thumbnail"><a href="./posts/2023-03-03-el-capitalismo/index.html" class="no-external">
 
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="assets/img/sidebar.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
@@ -363,7 +409,7 @@ Edison Achalma, Comité Central Partido Comunista del Perú
 <a href="./posts/2023-03-03-el-capitalismo/index.html" class="no-external">El capitalismo ¿Cáncer de nuestra era?</a>
 </h3>
 <div class="delink listing-description"><a href="./posts/2023-03-03-el-capitalismo/index.html" class="no-external">
-<p>Primer parrafo de abstrac</p>
+<p>Examen dialéctico de las contradicciones internas del capitalismo contemporáneo, acumulación, crisis cíclicas y tendencias a la concentración.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -378,10 +424,10 @@ Edison Achalma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1524459600000" data-listing-file-modified-sort="1744921215660" data-listing-date-modified-sort="1752728400000" data-listing-reading-time-sort="23" data-listing-word-count-sort="4539">
+<div class="quarto-post image-right" data-index="5" data-categories="Rmlsb3NvZmlh" data-listing-date-sort="1524459600000" data-listing-file-modified-sort="1766387898690" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="23" data-listing-word-count-sort="4539">
 <div class="thumbnail"><a href="./posts/2018-04-23-aparicion-pensamiento-socialista/index.html" class="no-external">
 
-<p class="card-img-top"><img src="sidebar.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="assets/img/sidebar.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
@@ -389,7 +435,7 @@ Edison Achalma
 <a href="./posts/2018-04-23-aparicion-pensamiento-socialista/index.html" class="no-external">Aparición del Pensamiento Socialista</a>
 </h3>
 <div class="delink listing-description"><a href="./posts/2018-04-23-aparicion-pensamiento-socialista/index.html" class="no-external">
-<p>Primer parrafo de abstrac</p>
+<p>Estudio histórico de la aparición del socialismo utópico y científico, sus precursores y las condiciones materiales que lo hicieron posible.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -404,9 +450,64 @@ Edison Achalma
 </a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="6" data-categories="SGlzdG9yaWElMjBkZWwlMjBwZW5zYW1pZW50byUyMGVjb24lQzMlQjNtaWNv" data-listing-date-sort="1495515600000" data-listing-file-modified-sort="1766388973003" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="27" data-listing-word-count-sort="5399">
+<div class="thumbnail"><a href="./posts/2017-05-23-el-mercantilismo/index.html" class="no-external">
+
+<p class="card-img-top"><img src="assets/img/sidebar.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2017-05-23-el-mercantilismo/index.html" class="no-external">El mercantilismo</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2017-05-23-el-mercantilismo/index.html" class="no-external">
+<p>Características, representantes y críticas al mercantilismo como etapa histórica del desarrollo capitalista y política económica estatal.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2017-05-23-el-mercantilismo/index.html" class="no-external">
+<div class="listing-date">
+5/23/17
+</div>
+<div class="listing-author">
+Edison Achalma, Jeancarlos Alcarráz, Félix Bermudo
+</div>
+<div class="listing-reading-time">27 min</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="UG9zdHM=" data-listing-date-sort="1431579600000" data-listing-file-modified-sort="1766388048326" data-listing-date-modified-sort="1766379600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="729">
+<div class="thumbnail"><a href="./posts/2015-05-14-el-aborto/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2015-05-14-el-aborto/featured.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2015-05-14-el-aborto/index.html" class="no-external">El aborto</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2015-05-14-el-aborto/index.html" class="no-external">
+<p>Análisis del aborto, considerando derechos individuales, contexto social en la sociedad actual.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2015-05-14-el-aborto/index.html" class="no-external">
+<div class="listing-date">
+5/14/15
+</div>
+<div class="listing-author">
+Edison Achalma, Yeno Areste, Cristían Galindo
+</div>
+<div class="listing-reading-time">4 min</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGKRPKHD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -458,13 +559,14 @@ Edison Achalma
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -479,7 +581,7 @@ Edison Achalma
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/achalmaedison\.netlify\.app\/");
+        var filterRegex = new RegExp("https:\/\/dialectica-y-mercado\.netlify\.app\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -813,7 +915,7 @@ Edison Achalma
 <p>© 2025 Edison Achalma ∙ Made with <a href="https://quarto.org">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-1" href="./accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://fosstodon.org/@achalmaedison" title="mastodon" target="_blank" rel="noopener"><i class="fa-brands fa-mastodon" aria-label="mastodon"></i></a> <a class="link-dark me-1" href="https://github.com/achalmed" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0001-6996-3364" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid" style="color:black"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?hl=en&amp;user=LvAkIvcAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar" style="color:black"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/achalmaedison" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a></p>
+<p><a class="link-dark me-1" href="./accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://fosstodon.org/@achalmaedison" title="mastodon" target="_blank" rel="noopener"><i class="fa-brands fa-mastodon" aria-label="mastodon"></i></a> <a class="link-dark me-1" href="https://github.com/achalmed" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/achalmaedison" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
