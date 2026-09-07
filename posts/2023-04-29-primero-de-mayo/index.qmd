@@ -37,6 +37,7 @@ date: 04/29/2023
 draft: false
 author: Comité Central Partido Comunista del Perú
 image-alt: '¡En este primero de mayo: seguir sembrando revolución!'
+curso: economia_politica
 ---
 
 # ¡En este primero de mayo: seguir sembrando revolución!

@@ -36,6 +36,7 @@ citation:
 date: 03/03/2023
 draft: false
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 En 1987 el mundo tenía 1.5 billones de pobres (con menos de 1 dólar al día) en 2015 son 1.9 billones. El índice internacional de pobreza se ha modificado varias veces en nombre de buenas campañas de relaciones públicas para el world bank.

@@ -36,6 +36,7 @@ citation:
 date: 04/23/2018
 draft: false
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 # Presentación

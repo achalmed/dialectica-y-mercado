@@ -85,6 +85,7 @@ author:
   role:
   - redacción
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 La edad media, dominada por formas de organización política feudal y un sistema económico señorial, y de escaso avance científico, empieza a romperse con la apertura de las rutas comerciales con el extremo oriente y con la intensa acumulación de metales preciosos de las naciones europeas, ocasionada por la conquista de América. La concepción mercantilista empieza en el siglo XVI, pero toma fuerza en el siglo XVII y abarca parte del siglo XVIII.

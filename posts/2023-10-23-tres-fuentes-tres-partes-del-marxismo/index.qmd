@@ -36,6 +36,7 @@ citation:
 date: 10/23/2023
 draft: true
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 # Explorando las Tres Fuentes y Tres Partes del Marxismo según Lenin

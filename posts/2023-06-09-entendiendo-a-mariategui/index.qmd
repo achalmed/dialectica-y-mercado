@@ -35,6 +35,7 @@ citation:
 date: 06/09/2023
 draft: false
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 # Entendiendo a Mariátegui: una perspectiva profunda^[Este blog está inspirado en la conferencia del doctor Abimael Guzmán Reynoso dictada en el año 1968 en la Universidad Nacional de San Cristóbal de Huamanga de Ayacucho. Si bien el contenido se basa en el legado revolucionario de José Carlos Mariátegui, reconocemos la influencia de dicha conferencia en la exploración de las ideas presentadas.]
