@@ -1,3 +1,4 @@
+# _quarto.yml — configuración del sitio Quarto pub_dialectica-y-mercado (proyecto, navegación, tema, formatos)
 project:
   type: website
   output-dir: _site

@@ -4,9 +4,7 @@ copyrightext: All rights reserved
 title: Las tres fuentes del marxismo
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Filosofia
 tags:
@@ -33,7 +31,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf
-date: 10/23/2023
+date: 2023-10-23
 draft: true
 image: ../featured.jpg
 curso: economia_politica

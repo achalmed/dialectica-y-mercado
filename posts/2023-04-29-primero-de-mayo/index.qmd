@@ -5,9 +5,7 @@ image: ../featured.jpg
 title: Significado histórico del Primero de Mayo
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Filosofia
 tags:
@@ -33,7 +31,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-04-29-primero-de-mayo/index.pdf
-date: 04/29/2023
+date: 2023-04-29
 draft: false
 author: Comité Central Partido Comunista del Perú
 image-alt: '¡En este primero de mayo: seguir sembrando revolución!'

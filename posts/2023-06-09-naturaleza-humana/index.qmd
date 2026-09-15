@@ -44,7 +44,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf
-date: 06/09/2023
+date: 2023-06-09
 draft: false
 image: ../featured.jpg
 curso: economia_politica

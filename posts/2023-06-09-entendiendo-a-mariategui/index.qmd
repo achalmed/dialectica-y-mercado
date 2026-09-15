@@ -4,9 +4,7 @@ copyrightext: All rights reserved
 title: Entendiendo el pensamiento de Mariátegui
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Filosofia
 tags:
@@ -32,7 +30,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-06-09-entendiendo-a-mariategui/index.pdf
-date: 06/09/2023
+date: 2023-06-09
 draft: false
 image: ../featured.jpg
 curso: economia_politica

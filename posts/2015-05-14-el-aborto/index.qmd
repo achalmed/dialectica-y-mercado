@@ -48,7 +48,7 @@ citation:
   - Yeno Areste
   - Cristían Galindo
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf
-date: 05/14/2015
+date: 2015-05-14
 draft: false
 author:
 - name: Edison Achalma

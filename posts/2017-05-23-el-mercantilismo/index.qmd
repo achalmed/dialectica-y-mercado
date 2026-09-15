@@ -58,7 +58,7 @@ citation:
   - Juan Curi
   - Yuri Fernández
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf
-date: 05/23/2017
+date: 2017-05-23
 draft: false
 bibliography: mybibliography.bib
 author:
