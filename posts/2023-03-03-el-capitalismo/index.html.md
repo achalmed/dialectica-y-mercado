@@ -4,9 +4,7 @@ copyrightext: All rights reserved
 title: Análisis crítico del capitalismo actual
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Filosofia
 tags:
@@ -33,9 +31,10 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-03-03-el-capitalismo/index.pdf
-date: 03/03/2023
+date: 2023-03-03
 draft: false
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 En 1987 el mundo tenía 1.5 billones de pobres (con menos de 1 dólar al día) en 2015 son 1.9 billones. El índice internacional de pobreza se ha modificado varias veces en nombre de buenas campañas de relaciones públicas para el world bank.
@@ -54,10 +53,20 @@ El primer paso para crear una alternativa es admitir que la que tenemos es un mi
 
 Antes que hables del libre mercado, pregúntate desde tu lógica libertaria por qué no sería legal la necrofilia o la expropiación de órganos por empresas. (El capitalismo se puede poner muuuuucho peor).
 
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
+
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
+
+---
+tipo: fragmento
+titulo: índice de publicaciones de posts; lo genera script_generador_publicacion_similar
+---
 
 1. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf) [El Aborto](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto)
 2. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf) [El Mercantilismo](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo)
@@ -69,6 +78,11 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 8. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf) [Naturaleza Humana](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana)
 9. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf) [Tres Fuentes Tres Partes Del Marxismo](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

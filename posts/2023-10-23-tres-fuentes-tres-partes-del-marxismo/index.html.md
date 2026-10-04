@@ -4,9 +4,7 @@ copyrightext: All rights reserved
 title: Las tres fuentes del marxismo
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Filosofia
 tags:
@@ -33,9 +31,10 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf
-date: 10/23/2023
+date: 2023-10-23
 draft: true
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 # Explorando las Tres Fuentes y Tres Partes del Marxismo según Lenin
@@ -160,10 +159,20 @@ Lo que quiero enfatizar a través de la Escuela Latinoamericana de Formación es
 
 Todo esto se relaciona con las Tres Fuentes y Tres Partes. El marxismo no es simplemente una caja de herramientas, y no podemos permitir que se fragmente en el eurocentrismo o el cientificismo. El marxismo tiene una vocación que los últimos avances científicos demuestran. Debemos retomar esta vocación, reconstruyendo lo que los clásicos nos ofrecieron, uniendo el pensamiento científico revolucionario con los últimos avances científicos y respondiendo a las variantes del idealismo, incluso aquellas que se presentan como marxistas. Nuestra meta es actualizar el pensamiento marxista al siglo 21.
 
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
+
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
+
+---
+tipo: fragmento
+titulo: índice de publicaciones de posts; lo genera script_generador_publicacion_similar
+---
 
 1. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf) [El Aborto](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto)
 2. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf) [El Mercantilismo](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo)
@@ -175,6 +184,11 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 8. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf) [Naturaleza Humana](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana)
 9. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf) [Tres Fuentes Tres Partes Del Marxismo](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

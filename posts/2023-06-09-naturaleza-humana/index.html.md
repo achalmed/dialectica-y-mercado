@@ -44,9 +44,10 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf
-date: 06/09/2023
+date: 2023-06-09
 draft: false
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 # Introducción
@@ -154,10 +155,20 @@ A partir de los ejemplos que acabamos de mencionar, podemos observar que la defi
 
 Por lo tanto, es de vital importancia revisar nuestras creencias, ya que moldean nuestra vida y la hacen posible. Es saludable asumir la responsabilidad de nuestras propias creencias, es decir, **comprender por qué creemos lo que creemos y cómo justificamos esas creencias.** Esto nos permitirá tomar un mayor control sobre nuestra propia vida y actuar de manera más consciente.
 
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
+
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
+
+---
+tipo: fragmento
+titulo: índice de publicaciones de posts; lo genera script_generador_publicacion_similar
+---
 
 1. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf) [El Aborto](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto)
 2. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf) [El Mercantilismo](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo)
@@ -169,6 +180,11 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 8. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf) [Naturaleza Humana](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana)
 9. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf) [Tres Fuentes Tres Partes Del Marxismo](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

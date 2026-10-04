@@ -58,7 +58,7 @@ citation:
   - Juan Curi
   - Yuri Fernández
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf
-date: 05/23/2017
+date: 2017-05-23
 draft: false
 bibliography: mybibliography.bib
 author:
@@ -85,6 +85,7 @@ author:
   role:
   - redacción
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 La edad media, dominada por formas de organización política feudal y un sistema económico señorial, y de escaso avance científico, empieza a romperse con la apertura de las rutas comerciales con el extremo oriente y con la intensa acumulación de metales preciosos de las naciones europeas, ocasionada por la conquista de América. La concepción mercantilista empieza en el siglo XVI, pero toma fuerza en el siglo XVII y abarca parte del siglo XVIII.
@@ -255,10 +256,20 @@ Jean Baptiste Colbert como la mayoría de mercantilistas estaba a favor de la ac
 6.  ​ Conveniencia de la adquisición de colonias como fuentes de materias primas (eventualmente de metales preciosos) y mercados de los bienes elaborados en la metrópoli. La aplicación de estas ideas contribuyó, especialmente, al progreso de Francia e Inglaterra.
 
 
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
+
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
+
+---
+tipo: fragmento
+titulo: índice de publicaciones de posts; lo genera script_generador_publicacion_similar
+---
 
 1. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf) [El Aborto](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto)
 2. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf) [El Mercantilismo](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo)
@@ -270,6 +281,11 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 8. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf) [Naturaleza Humana](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana)
 9. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf) [Tres Fuentes Tres Partes Del Marxismo](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

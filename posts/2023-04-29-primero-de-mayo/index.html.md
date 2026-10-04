@@ -5,9 +5,7 @@ image: ../featured.jpg
 title: Significado histórico del Primero de Mayo
 abstract: Este abstract será actualizado una vez que se complete el contenido final
   del artículo.
-keywords:
-- keyword1
-- keyword2
+keywords: []
 categories:
 - Filosofia
 tags:
@@ -33,10 +31,11 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://dialectica-y-mercado.netlify.app/posts/2023-04-29-primero-de-mayo/index.pdf
-date: 04/29/2023
+date: 2023-04-29
 draft: false
 author: Comité Central Partido Comunista del Perú
 image-alt: '¡En este primero de mayo: seguir sembrando revolución!'
+curso: economia_politica
 ---
 
 # ¡En este primero de mayo: seguir sembrando revolución!
@@ -202,10 +201,20 @@ Comité Central Partido Comunista del Perú
 
 Ediciones Bandera Roja
 
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
+
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
+
+---
+tipo: fragmento
+titulo: índice de publicaciones de posts; lo genera script_generador_publicacion_similar
+---
 
 1. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto/index.pdf) [El Aborto](https://dialectica-y-mercado.netlify.app/posts/2015-05-14-el-aborto)
 2. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo/index.pdf) [El Mercantilismo](https://dialectica-y-mercado.netlify.app/posts/2017-05-23-el-mercantilismo)
@@ -217,6 +226,11 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 8. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf) [Naturaleza Humana](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana)
 9. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf) [Tres Fuentes Tres Partes Del Marxismo](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 
