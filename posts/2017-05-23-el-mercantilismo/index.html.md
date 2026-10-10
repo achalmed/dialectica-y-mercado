@@ -273,7 +273,6 @@ Si te interesó este artículo, te recomendamos que explores otros blogs y recur
 6. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-05-19-seminario-de-filosofia-marxista/index.pdf) [Seminario De Filosofia Marxista](https://dialectica-y-mercado.netlify.app/posts/2023-05-19-seminario-de-filosofia-marxista)
 7. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-entendiendo-a-mariategui/index.pdf) [Entendiendo A Mariategui](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-entendiendo-a-mariategui)
 8. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana/index.pdf) [Naturaleza Humana](https://dialectica-y-mercado.netlify.app/posts/2023-06-09-naturaleza-humana)
-9. [{{< fa regular file-pdf >}}](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo/index.pdf) [Tres Fuentes Tres Partes Del Marxismo](https://dialectica-y-mercado.netlify.app/posts/2023-10-23-tres-fuentes-tres-partes-del-marxismo)
 
 
 <!-- fragmento de inclusión — texto de cierre del bloque «Publicaciones similares» (incluido en cada post) -->
