@@ -4,11 +4,11 @@ estado: activo
 ---
 # dialectica-y-mercado/ — Filosofía y política: blog satélite del hub `web` (repo dialectica-y-mercado, dialectica-y-mercado.netlify.app)
 
-<!-- GENERADO por `web/scripts/pubs.py readme --aplicar` desde `web/_pubs/pubs.yml` (2026-10-20); no editar aquí: se regenera desde el hub -->
+<!-- GENERADO por `web/scripts/pubs.py readme --aplicar` desde `web/_pubs/pubs.yml` (2026-10-21); no editar aquí: se regenera desde el hub -->
 
 ## Qué es
 
-Filosofía política, ética económica y teoría social. Es uno de los 11 blogs satélite de la familia Quarto de Edison Achalma: un sitio Quarto
+Filosofía política, ética económica y teoría social. Es uno de los blogs satélite de la familia Quarto de Edison Achalma: un sitio Quarto
 con repositorio y sitio Netlify propios, incluido como submódulo git en el hub `web` (repo
 `website-achalma`) bajo `web/_pubs/dialectica-y-mercado/`. El mismo blog tiene tres nombres: carpeta `dialectica-y-mercado`, repo
 GitHub `achalmed/dialectica-y-mercado` y dominio `dialectica-y-mercado.netlify.app`; el registro de los tres es `web/_pubs/pubs.yml`.
