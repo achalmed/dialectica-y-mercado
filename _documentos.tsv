@@ -1,0 +1,22 @@
+# _documentos.tsv — GENERADO por scripts/documentos.py; no editar
+# Caché del modo documentos (render.sh --documentos): una fila por página y formato; la clave es el sha256 de la
+# fuente y de la fecha de la página; sha256 es el de la salida en _site/. Ver web/docs/decisiones.md §4.5.
+fuente	formato	salida	clave	sha256
+404.qmd	-	-	b1e585f54d43619cac162f18c085b3e0788d05618b2c684f9faad356a2244dd2	-
+index.qmd	-	-	fe662fb8ed07d97712e5b8c9e9d137654082d87e1a3d82df667bc216a153c878	-
+posts/2015-05-14-el-aborto/index.qmd	apaquarto-docx	posts/2015-05-14-el-aborto/index.docx	34adef184a9a3d1d4e1bf0e5079235401862fc4023976b03188bfe3ea991c5c5	5c7de9f18cfbc7ae1990b764cbf2acb6ef59053365b07dcea7cc8338136505fb
+posts/2015-05-14-el-aborto/index.qmd	apaquarto-pdf	posts/2015-05-14-el-aborto/index.pdf	34adef184a9a3d1d4e1bf0e5079235401862fc4023976b03188bfe3ea991c5c5	69d2facadc90af6ff3834d7a03d581dd8580570433d6eb278192cab6ee4861e4
+posts/2017-05-23-el-mercantilismo/index.qmd	apaquarto-docx	posts/2017-05-23-el-mercantilismo/index.docx	82fa740866e64d443f7bf302a8f9b70dfdaff7c8f24d1e78706fc65b4b54da76	300e24a3f649e02c9a9d3347e89bb28787b4db969db12727a2878e7a5e951456
+posts/2017-05-23-el-mercantilismo/index.qmd	apaquarto-pdf	posts/2017-05-23-el-mercantilismo/index.pdf	82fa740866e64d443f7bf302a8f9b70dfdaff7c8f24d1e78706fc65b4b54da76	747f02e0b8190c276dfe36a0a0cb6523309f1f10511274e532e71c3325008ff7
+posts/2018-04-23-aparicion-pensamiento-socialista/index.qmd	apaquarto-docx	posts/2018-04-23-aparicion-pensamiento-socialista/index.docx	18f86f575b9c2566a4a7445294d136ea0fd40524b6b382c3ff9a9f10073fec3a	d022b6ad50a21d8c2b592f713b3579aad1764455e44625eac5dcdfd19b7bf464
+posts/2018-04-23-aparicion-pensamiento-socialista/index.qmd	apaquarto-pdf	posts/2018-04-23-aparicion-pensamiento-socialista/index.pdf	18f86f575b9c2566a4a7445294d136ea0fd40524b6b382c3ff9a9f10073fec3a	c7a7ebccbe9c317dc332a5046bd50c3f30f9904f68679e93d53984276b98bacd
+posts/2023-03-03-el-capitalismo/index.qmd	apaquarto-docx	posts/2023-03-03-el-capitalismo/index.docx	c0fd3337263a339d9ec2938d1d2e2c4223d2235e72b49fff9646ead0182c9820	732047929cdd9f24ace6c14ec02905819437e9374cb0a9532cea43e4e9978fd2
+posts/2023-03-03-el-capitalismo/index.qmd	apaquarto-pdf	posts/2023-03-03-el-capitalismo/index.pdf	c0fd3337263a339d9ec2938d1d2e2c4223d2235e72b49fff9646ead0182c9820	321864dd8a9a5e3841f0760bb028a0558d6e9791c266c708a7eae98bdaab7e38
+posts/2023-04-29-primero-de-mayo/index.qmd	apaquarto-docx	posts/2023-04-29-primero-de-mayo/index.docx	5380b877b5f27afbecff4b37412efaf5192cda88166fdf36e1eea4ed02115b7e	dbcf6256d594865aca659b09f39d3bb412ff71daa752ce8fda96c8ec48725133
+posts/2023-04-29-primero-de-mayo/index.qmd	apaquarto-pdf	posts/2023-04-29-primero-de-mayo/index.pdf	5380b877b5f27afbecff4b37412efaf5192cda88166fdf36e1eea4ed02115b7e	6f2a68510767f474990178d69cb2809892010a5d79910ac308e5874fc6e4d5dd
+posts/2023-05-19-seminario-de-filosofia-marxista/index.qmd	apaquarto-docx	posts/2023-05-19-seminario-de-filosofia-marxista/index.docx	9a9d065736be11b67ed56fe3863523921de60790cd1d57fc3f97024c15e95e24	232ca46969956e30aaa16731307a88e07780e5e99e5a479d4a6720ee449d6a19
+posts/2023-05-19-seminario-de-filosofia-marxista/index.qmd	apaquarto-pdf	posts/2023-05-19-seminario-de-filosofia-marxista/index.pdf	9a9d065736be11b67ed56fe3863523921de60790cd1d57fc3f97024c15e95e24	1e687e3cf248a95ed3dc0be818f64c437d7bcd1677be25f782910ec67af9ae57
+posts/2023-06-09-entendiendo-a-mariategui/index.qmd	apaquarto-docx	posts/2023-06-09-entendiendo-a-mariategui/index.docx	7d9604653ff2656c7961f2210ec0ae28785a768839d524214df58ef2024275c3	4eace87400b6c4aca193655d01b1f1a1251c7efe512e788a6c1787ed33e33f30
+posts/2023-06-09-entendiendo-a-mariategui/index.qmd	apaquarto-pdf	posts/2023-06-09-entendiendo-a-mariategui/index.pdf	7d9604653ff2656c7961f2210ec0ae28785a768839d524214df58ef2024275c3	80f1565b1abd06021700a175a005ed34ded6feabd2de514430c6070b86807b0b
+posts/2023-06-09-naturaleza-humana/index.qmd	apaquarto-docx	posts/2023-06-09-naturaleza-humana/index.docx	521fa56f76bad7696ac48950332c81aaac355e7bcd22fa60f59220475c50fe9b	c2485ff6bfb63acc34bac6eb44de5d1ae8ca7891ad1541c7a5201fa6ae519942
+posts/2023-06-09-naturaleza-humana/index.qmd	apaquarto-pdf	posts/2023-06-09-naturaleza-humana/index.pdf	521fa56f76bad7696ac48950332c81aaac355e7bcd22fa60f59220475c50fe9b	a1953488604325752776a794f496804d56a790a86ed5679b0bd62acfc3c4eb8c
