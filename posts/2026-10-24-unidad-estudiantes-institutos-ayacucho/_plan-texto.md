@@ -1,18 +1,18 @@
 # _plan-texto.md — plan del post (10 redaccion/prompt_02_plan_del_texto); insumo, no se publica
 
-Hilo: estudiar en un instituto es casi la única puerta → la puerta está desatendida (cifras) → no es casual: un modelo
-(882 y el gasto) → la ley ya promete lo que se pide (30512) → la respuesta es organizarse (coordinadora) → demandas con
-su base y su responsable → cierre.
+Versión 2 (2026-10-24), tras la auditoría editorial. Tesis: la ley exige a los tecnológicos públicos la misma calidad
+que a las escuelas pedagógicas sin garantizarles los mismos recursos, y la reforma se aprobó sin presupuesto; esa
+brecha explica, junto con la gestión y la dispersión, que 10 de 16 no tengan licencia en Ayacucho.
 
-| § | Encabezado | Idea | Evidencia |
+| § | Encabezado | Función | Evidencia |
 |---|---|---|---|
-| intro | (sin título) | 3 de cada 10 llegan a la educación superior; el instituto público es la puerta de los pobres | PNESTP |
-| 1 | La puerta que el Estado deja entreabierta | Instituto: casi la única alternativa; gratis pero precario | PNESTP, Andina 2025, visitas |
-| 2 | La crisis no empieza en el aula | Mariátegui: la enseñanza es problema económico y social; PISA como síntoma | Mariátegui p. 129; PISA 2022 |
-| 3 | El abandono en cifras | Poco y mal repartido: 10,9 % vs 20,3 %; 73,4 % a universidades | PNESTP OP6 |
-| 4 | Del Decreto Legislativo 882 al mercado de títulos | Lucro permitido; 7 de 10 en privados; 11 de 105 licenciados son públicos | DL 882; Gestión 2023, 2024 |
-| 5 | Lo que la ley ya promete | Art. 61, bienestar, 10 % del canon; reforma sin recursos adicionales | Ley 30512 |
-| 6 | ¿Por qué no se invierte? | Bourdieu: destrucción de los colectivos; mano de obra barata como efecto | Bourdieu 1998 |
-| 7 | La unidad como respuesta | Coordinadora de estudiantes de institutos de Ayacucho | Original, punto 7 |
-| 7.1 | Las demandas, una por una | Tabla demanda · base · a quién se le pide | Ley 30512; original |
-| cierre | Nadie nos ha regalado nada | Lo conseguido se conquistó; consignas | Original |
+| resumen | En pocas palabras | problema, tesis, propuesta | todo el texto |
+| intro | (sin título) | origen, tipos de afirmación, alcance, fecha de corte | pronunciamiento |
+| 1 | La desigualdad empieza antes del instituto | contexto nacional, con límites de cada indicador | PNESTP pp. 26-27; PISA pp. 45-46; Minedu 2025; ESCALE; Ferreyra; Yamada |
+| 2 | Los institutos públicos de Ayacucho, uno por uno | diagnóstico regional; observaciones de campo con su límite | ESCALE 2025; lista de licenciados 2026; nota DIFOID |
+| 3 | Presupuesto: cuánto llega y a dónde | gasto por estudiante, PIM y devengado; Ayacucho | Banco Mundial; MEF; PNESTP p. 120 |
+| 4 | Lo que dice la ley y quién responde | cronología; obligación, insuficiencia y vacío; competencias | Ley 30512; LOGR; reglamento; DU 017-2020; Ley 31653 |
+| 5 | Por qué ocurre | mecanismo causal, contraste con pedagógicos, incentivos; objeciones | Mariátegui; Bourdieu; MEF |
+| 6 | Organizarse para exigir | propuesta, primer paso, plazos, criterios | TUO Ley 27806 |
+| 7 | Agenda regional de demandas | matriz: demanda, fundamento, responsable e indicador | Ley 30512; LOGR |
+| 8 | Conclusiones | lo demostrado, lo propuesto, el primer paso; consigna | |

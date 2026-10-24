@@ -32,14 +32,17 @@ criterios_de_aceptacion:
   - Longitudes del prompt 07/01 (título 40 a 65 caracteres, description 140 a 160, abstract 150 a 250 palabras).
   - Sin muletillas prohibidas ni aperturas prohibidas; sin rayas.
 fuentes:
+  verificacion: 2026-10-24, en fuente primaria (política nacional completa, MEF Consulta Amigable, ESCALE padrón 2025, lista de licenciados del Minedu, textos de las normas)
   biblioteca:
     - {calibre_id: 530, zotero: mariateguiSieteEnsayosInterpretacion2007, uso: "«El problema de la enseñanza… un problema económico y como un problema social», p. 129"}
-    - {calibre_id: 4465, zotero: ministeriodeeducacionPoliticaNacionalEducacion2018, uso: "acceso 3 de 10, quintiles 21,8 % y 52,7 %, gasto 10,9 % del PBI per cápita, 73,4 % del gasto a universidades"}
-    - {calibre_id: 10025, zotero: ministeriodeeducacionLeyNdeg305122016, uso: "art. 61 (recursos para infraestructura y equipamiento), unidad de bienestar, 10 % del canon, sin recursos adicionales"}
-    - {calibre_id: 1490, zotero: bourdieuEsenciaNeoliberalismo101, uso: "«programa de destrucción metódica de los colectivos»; restricción del gasto público"}
-  web_pendientes_de_ingresar_a_la_biblioteca:
-    - Decreto Legislativo 882 (1996), arts. 2 y 7
-    - Minedu en El Peruano (2023), resultados PISA 2022
-    - Gestión (2023), 105 IEST licenciados, 11 públicos
-    - Gestión (2024), cifras del gremio de institutos privados
-    - Andina (2025), 343 IEST públicos y 48 196 vacantes 2025-I
+    - {calibre_id: 10025, zotero: ministeriodeeducacionLeyNdeg305122016, uso: "arts. 24-25, 29 f, 57, 61, 63; disposiciones 3.ª modificatoria, 7.ª y 14.ª transitorias, 13.ª final"}
+    - {calibre_id: 1490, zotero: bourdieuEsenciaNeoliberalismo101, uso: "«programme de destruction méthodique des collectifs», p. 3, traducción propia; fecha por corregir en Zotero: marzo de 1998"}
+  pendientes_de_ingresar_a_la_biblioteca:   # dueño: Edison; scripts-biblioteca, ingesta, con Calibre y Zotero cerrados
+    - Política Nacional de Educación Superior y Técnico-Productiva, completa (DS 012-2020-MINEDU), pp. 26-27, 46-47, 120
+    - Minedu (2024), El Perú en PISA 2022, pp. 45-46
+    - Ferreyra et al. (2017) y (2021), Banco Mundial
+    - Yamada y Lavado (2017), Universidad del Pacífico
+    - Normas: DL 882, Ley 27867, DS 010-2017-MINEDU, DS 021-2019-JUS, DU 017-2020, Ley 31653
+    - Datos: Banco Mundial SE.XPD.TERT.PC.ZS, MEF Consulta Amigable, ESCALE padrón 2025, lista de licenciados (2026)
+    - Notas de prensa del Minedu (2025, vacantes; 2026, Ayacucho)
+  sin_verificar: las observaciones de campo y los expedientes técnicos (no se consultó Invierte.pe)
