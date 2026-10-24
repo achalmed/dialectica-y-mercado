@@ -1,0 +1,705 @@
+\documentclass[
+  jou,
+  floatsintext,
+  longtable,
+  a4paper,
+  nolmodern,
+  notxfonts,
+  notimes,
+  12pt,
+  colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+
+\usepackage[bidi=default]{babel}
+\babelprovide[main,import]{spanish}
+
+
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+
+\RequirePackage{longtable}
+\RequirePackage{threeparttablex}
+
+\makeatletter
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\parindent}%
+	{0\baselineskip \@plus 0.2ex \@minus 0.2ex}%
+	{-.5em}%
+	{\normalfont\normalsize\bfseries\typesectitle}}
+
+\renewcommand{\subparagraph}[1]{\@startsection{subparagraph}{5}{0.5em}%
+	{0\baselineskip \@plus 0.2ex \@minus 0.2ex}%
+	{-\z@\relax}%
+	{\normalfont\normalsize\bfseries\itshape\hspace{\parindent}{#1}\textit{\addperi}}{\relax}}
+\makeatother
+
+
+
+
+\usepackage{longtable, booktabs, multirow, multicol, colortbl, hhline, caption, array, float, xpatch}
+\usepackage{subcaption}
+
+
+\renewcommand\thesubfigure{\Alph{subfigure}}
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.15}
+\renewcommand{\floatpagefraction}{0.7}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{listings,theorems, breakable, skins}
+\usepackage{fontawesome5}
+
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{ACACAC}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582EC}
+\definecolor{quarto-callout-important-color-frame}{HTML}{D9534F}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{F0AD4E}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02B875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{FD7E14}
+
+%\newlength\Oldarrayrulewidth
+%\newlength\Oldtabcolsep
+
+
+\usepackage{hyperref}
+
+
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+
+
+\usepackage{newtx}
+
+\defaultfontfeatures{Scale=MatchLowercase}
+\defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+
+
+
+
+
+\title{Institutos públicos de Ayacucho: sin lucha no hay victoria: Por
+qué los institutos públicos están abandonados y cómo la unidad
+estudiantil puede cambiarlo}
+
+
+\shorttitle{INSTITUTOS PÚBLICOS DE AYACUCHO}
+
+
+\usepackage{etoolbox}
+
+
+
+\ccoppy{\textcopyright~2026}
+
+
+
+\author{Edison Achalma}
+
+
+
+\affiliation{
+{Escuela Profesional de Economía, Universidad Nacional de San Cristóbal
+de Huamanga}}
+
+
+
+
+\leftheader{Achalma}
+
+\date{2026-10-24}
+
+
+\abstract{This essay examines the situation of public technological and
+pedagogical institutes in Ayacucho, Peru, and turns a student manifesto
+into an argument supported by data and law. It starts from Mariátegui's
+claim that the problem of education is an economic and social problem
+and uses official figures to show that Peru invests little in tertiary
+education and distributes it unevenly: only three in ten graduates of
+basic education reach higher education, the poorest quintile transits at
+less than half the rate of the richest, spending per tertiary student
+was 10.9 percent of GDP per capita in 2017 against 20.3 percent in
+Chile, and 73.4 percent of public spending on higher education goes to
+universities. It traces how Legislative Decree 882 of 1996 opened
+education to profit while public institutes were left without a matching
+investment, so that most technical students now attend private
+institutions and few public institutes have been licensed. It then shows
+that Law 30512 already obliges the State to fund infrastructure,
+equipment and student welfare, but its reform was enacted without
+additional resources. Drawing on Bourdieu, the essay reads this neglect
+as part of a program that weakens collective action, and it proposes a
+regional coordinating body of institute students as the means to demand
+what the law already promises, with a list of demands, their legal basis
+and the authority responsible for each. }
+
+\keywords{public higher education, technical and pedagogical
+institutes, education spending, student organization, Ayacucho}
+
+\authornote{\par{\addORCIDlink{Edison Achalma}{0000-0001-6996-3364}} 
+
+\par{   El autor no tiene conflictos de interés que revelar.  A los
+estudiantes de institutos de Ayacucho que redactaron el pronunciamiento
+que dio origen a este texto.  Los roles de autor se clasificaron
+utilizando la taxonomía de roles de colaborador (CRediT;
+https://credit.niso.org/) de la siguiente manera:  Edison
+Achalma:   conceptualización, metodología, análisis
+formal, investigación, recursos, curación de
+datos, redacción, visualización, supervisión, administración del
+proyecto}
+\par{La correspondencia relativa a este artículo debe dirigirse a Edison
+Achalma, Escuela Profesional de Economía, Universidad Nacional de San
+Cristóbal de Huamanga, Portal Independencia N°
+57, Ayacucho, AYA 5001, Perú, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@unsch.edu.pe}}
+}
+
+\usepackage{pbalance}
+% \usepackage{float}
+\makeatletter
+\let\oldtpt\ThreePartTable
+\let\endoldtpt\endThreePartTable
+\def\ThreePartTable{\@ifnextchar[\ThreePartTable@i \ThreePartTable@ii}
+\def\ThreePartTable@i[#1]{\begin{figure}[!htbp]
+\onecolumn
+\begin{minipage}{0.485\textwidth}
+\oldtpt[#1]
+}
+\def\ThreePartTable@ii{\begin{figure}[!htbp]
+\onecolumn
+\begin{minipage}{0.48\textwidth}
+\oldtpt
+}
+\def\endThreePartTable{
+\endoldtpt
+\end{minipage}
+\twocolumn
+\end{figure}}
+\makeatother
+
+
+\makeatletter
+\let\endoldlt\endlongtable		
+\def\endlongtable{
+\hline
+\endoldlt}
+\makeatother
+
+\newenvironment{twocolumntable}% environment name
+{% begin code
+\begin{table*}[!htbp]%
+\onecolumn%
+}%
+{%
+\twocolumn%
+\end{table*}%
+}% end code
+
+\urlstyle{same}
+
+
+
+\hypersetup{
+  pdftitle={Institutos p\'{u}blicos de Ayacucho: sin lucha no hay victoria},
+  pdfauthor={Autor}
+}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Lista de Figuras}
+\else
+  \newcommand\listfigurename{Lista de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Lista de Tablas}
+\else
+  \newcommand\listtablename{Lista de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listados}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+% From https://tex.stackexchange.com/a/645996/211326
+%%% apa7 doesn't want to add appendix section titles in the toc
+%%% let's make it do it
+\makeatletter
+\xpatchcmd{\appendix}
+  {\par}
+  {\addcontentsline{toc}{section}{\@currentlabelname}\par}
+  {}{}
+\makeatother
+
+%% Disable longtable counter
+%% https://tex.stackexchange.com/a/248395/211326
+
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\LT@caption}
+  {\bgroup}
+  {\bgroup\global\LTpatch@captiontrue}
+  {}{}
+\patchcmd{\longtable}
+  {\par}
+  {\par\global\LTpatch@captionfalse}
+  {}{}
+\apptocmd{\endlongtable}
+  {\ifLTpatch@caption\else\addtocounter{table}{-1}\fi}
+  {}{}
+\newif\ifLTpatch@caption
+\makeatother
+
+\begin{document}
+
+\maketitle
+
+
+\hypertarget{toc}{}
+\tableofcontents
+\newpage
+\section[Introduction]{Institutos públicos de Ayacucho: sin lucha no hay
+victoria}
+
+
+\setlength\LTleft{0pt}
+
+
+
+
+En el Perú, solo tres de cada diez jóvenes que terminan el colegio
+llegan a la educación superior
+(\citeproc{ref-ministeriodeeducacionPoliticaNacionalEducacion2018}{Ministerio
+de Educación, 2020}). Para quien viene de una familia pobre, de Pausa,
+de Coracora, de Huanta o de un distrito al que el bus llega una vez al
+día, esa puerta casi siempre es un \textbf{instituto público}: un
+tecnológico o un pedagógico que no cobra pensión y queda cerca de casa.
+Este texto parte de un pronunciamiento de estudiantes de institutos de
+Ayacucho que circula con una consigna sencilla, \emph{sin luchas no hay
+victorias}, y lo desarrolla con cifras, normas y algunas lecturas de
+fondo.
+
+La idea es responder tres preguntas que el pronunciamiento plantea: por
+qué los institutos públicos están como están, de quién es la
+responsabilidad y qué pueden hacer quienes estudian en ellos. Al final
+hay una lista de demandas, cada una con la norma que la respalda y la
+autoridad a la que se le pide.
+
+\section{La puerta que el Estado deja
+entreabierta}\label{la-puerta-que-el-estado-deja-entreabierta}
+
+\textbf{Estudiar en un instituto es, para miles de jóvenes, la única
+forma realista de mejorar su vida.} La educación superior en el Perú es
+desigual desde la entrada: de los egresados de secundaria del 20 \% más
+pobre de la población, solo el 21,8 \% pasa a la educación superior; del
+20 \% más rico, el 52,7 \%
+(\citeproc{ref-ministeriodeeducacionPoliticaNacionalEducacion2018}{Ministerio
+de Educación, 2020}). La misma política nacional reconoce algo más: los
+egresados de la educación superior tecnológica son más buscados en el
+mercado laboral que los universitarios, aunque la matrícula se concentra
+en las universidades.
+
+El instituto público cumple entonces una función que nadie más cumple.
+En el periodo 2025-I, 343 institutos tecnológicos públicos ofrecieron 48
+196 vacantes en todo el país, con carreras de tres años y sin
+mensualidades
+(\citeproc{ref-andinaInstitutosPublicosOfrecen2025}{Agencia Andina,
+2025}). Es una puerta abierta, pero solo a medias. En recorridos
+recientes por institutos del sur de Ayacucho vi locales de adobe con
+techos que dejan pasar el agua, una carrera de Enfermería con un solo
+microscopio para todos sus estudiantes y domos de emergencia guardados
+en un almacén, a la espera de que alguien los arme. Casi todos esos
+institutos tienen ya su expediente técnico; lo que falta es que alguien
+lo financie.
+
+\section{La crisis no empieza en el
+aula}\label{la-crisis-no-empieza-en-el-aula}
+
+\textbf{Los problemas de los institutos no se explican solo mirando al
+instituto.} José Carlos Mariátegui lo escribió hace casi un siglo: «El
+problema de la enseñanza no puede ser bien comprendido en nuestro
+tiempo, si no es considerado un problema económico y como un problema
+social»
+(\citeproc{ref-mariateguiSieteEnsayosInterpretacion2007}{Mariátegui,
+2007, p. 129}). Un país que vive una crisis económica, política y social
+la reproduce en sus escuelas, y una educación pobre devuelve al país
+trabajadores con menos herramientas.
+
+Los resultados de la prueba PISA 2022 muestran ese círculo. Apenas el 34
+\% de los estudiantes peruanos de quince años alcanzó el nivel mínimo en
+Matemática, el 47 \% en Ciencia y el 50 \% en Lectura
+(\citeproc{ref-elperuanoMineduEvaluaPositivamente2023}{El Peruano,
+2023}). Esos jóvenes son los que, tres años después, llegan a un
+instituto que debe nivelarlos con menos recursos que una universidad.
+Cuando desde el gobierno se dice que no se atiende a la población porque
+«no les quieren dar las facultades», la pregunta del pronunciamiento es
+legítima: ¿hasta cuándo se va a postergar la educación pública en todos
+sus niveles?
+
+\section{El abandono en cifras: poco y mal
+repartido}\label{el-abandono-en-cifras-poco-y-mal-repartido}
+
+\textbf{El Estado invierte poco en la educación superior y lo poco que
+invierte no llega a los institutos.} En 2017, el gasto por estudiante de
+educación terciaria en el Perú fue el 10,9 \% del PBI por habitante; en
+Chile fue el 20,3 \% y en Colombia el 20,4 \%
+(\citeproc{ref-ministeriodeeducacionPoliticaNacionalEducacion2018}{Ministerio
+de Educación, 2020}). Dicho de otro modo, por cada estudiante de
+educación superior, nuestros vecinos invierten casi el doble.
+
+Además, el reparto es desigual. Del gasto público en educación superior
+y técnico-productiva, el 73,4 \% va a las universidades, el 20,4 \% a
+los institutos y escuelas tecnológicos, pedagógicos y artísticos, y el
+6,2 \% a los centros técnico-productivos
+(\citeproc{ref-ministeriodeeducacionPoliticaNacionalEducacion2018}{Ministerio
+de Educación, 2020}). Por eso, cuando un estudiante de un tecnológico
+agropecuario pide un tractor o un laboratorio, no está pidiendo un lujo:
+está pidiendo una parte de lo que ya recibe la universidad de al lado.
+
+\section{Del Decreto Legislativo 882 al mercado de
+títulos}\label{del-decreto-legislativo-882-al-mercado-de-tuxedtulos}
+
+\textbf{En los noventa, el país decidió que la educación también podía
+ser un negocio.} El Decreto Legislativo 882 de 1996 reconoció a toda
+persona el derecho a fundar y conducir instituciones educativas «con o
+sin finalidad lucrativa» y les extendió las garantías de la inversión
+privada (\citeproc{ref-peruDecretoLegislativo8821996}{Decreto
+Legislativo N.° 882, Ley de Promoción de la Inversión en la Educación,
+1996}, arts. 2 y 7). La oferta privada creció rápido; la pública no
+recibió una inversión que la acompañara.
+
+El resultado se ve hoy en la matrícula. Según el gremio de los
+institutos privados, de cada diez estudiantes de la educación superior
+tecnológica, siete estudian en un instituto privado
+(\citeproc{ref-guardiaquispeInstitutosEscuelasDestinaran2024}{Guardia
+Quispe, 2024}). Y en la calidad: de los 105 institutos tecnológicos
+licenciados entre 2018 y 2023, solo 11 eran públicos
+(\citeproc{ref-gestionCualesSon105Institutos2023}{Gestión, 2023}). El
+licenciamiento es la autorización para funcionar que se obtiene
+cumpliendo condiciones básicas de calidad
+(\citeproc{ref-ministeriodeeducacionLeyNdeg305122016}{Ley N.° 30512, Ley
+de Institutos y Escuelas de Educación Superior y de la Carrera Pública
+de sus Docentes, 2016}, art. 24); si el instituto público no tiene
+laboratorios, bibliotecas ni locales adecuados, no se licencia, y el
+joven que no puede pagar un privado se queda sin alternativa. Así, la
+privatización no solo abre negocios: también cierra puertas, sobre todo
+en las zonas rurales.
+
+\section{Lo que la ley ya promete y no se
+cumple}\label{lo-que-la-ley-ya-promete-y-no-se-cumple}
+
+\textbf{Casi todo lo que piden los estudiantes ya está escrito en la
+ley.} La Ley 30512, que rige los institutos y escuelas desde 2016,
+obliga al Ministerio de Educación y a los gobiernos regionales a
+considerar en sus presupuestos, «bajo responsabilidad de ley», los
+recursos necesarios para la infraestructura, el mobiliario y el
+equipamiento de las escuelas pedagógicas públicas
+(\citeproc{ref-ministeriodeeducacionLeyNdeg305122016}{Ley N.° 30512, Ley
+de Institutos y Escuelas de Educación Superior y de la Carrera Pública
+de sus Docentes, 2016}, art. 61). Para los institutos tecnológicos
+públicos no hay una cláusula igual: la ley les exige condiciones básicas
+de calidad para licenciarse, pero no obliga a nadie a darles los medios
+para cumplirlas, y esa omisión también es una demanda. La ley manda,
+además, que cada instituto y escuela pública tenga una unidad de
+bienestar y empleabilidad, con orientación, tutoría y consejería, y con
+la atención de los casos de acoso o discriminación
+(\citeproc{ref-ministeriodeeducacionLeyNdeg305122016}{Ley N.° 30512, Ley
+de Institutos y Escuelas de Educación Superior y de la Carrera Pública
+de sus Docentes, 2016}, art. 29). Y modificó la Ley de Canon para que
+cada gobierno regional entregue el 10 \% del canon que recibe a los
+institutos y escuelas de su región, destinado a la investigación
+científica y tecnológica
+(\citeproc{ref-ministeriodeeducacionLeyNdeg305122016}{Ley N.° 30512, Ley
+de Institutos y Escuelas de Educación Superior y de la Carrera Pública
+de sus Docentes, 2016}, tercera disposición complementaria
+modificatoria).
+
+La trampa está en otra disposición de la misma ley: su implementación se
+financiaría con el presupuesto del Ministerio de Educación «sin demandar
+recursos adicionales al Tesoro Público»
+(\citeproc{ref-ministeriodeeducacionLeyNdeg305122016}{Ley N.° 30512, Ley
+de Institutos y Escuelas de Educación Superior y de la Carrera Pública
+de sus Docentes, 2016}, décima cuarta disposición complementaria final).
+Se reformó el sistema, se le exigieron más condiciones de calidad y no
+se le dio más dinero para cumplirlas. La pregunta del pronunciamiento,
+¿por qué no se quiere invertir en educación?, tiene aquí una respuesta
+concreta: porque se legisla sin presupuesto.
+
+\section{¿Por qué no se invierte en
+educación?}\label{por-quuxe9-no-se-invierte-en-educaciuxf3n}
+
+\textbf{El abandono de la educación pública no es un descuido: es
+coherente con un modelo.} Pierre Bourdieu describió el neoliberalismo
+como una política que, en nombre de la eficiencia del mercado, impone la
+restricción del gasto público y la flexibilización del trabajo, y que
+funciona como «un programa de destrucción metódica de los colectivos»
+(\citeproc{ref-bourdieuEsenciaNeoliberalismo101}{Bourdieu, 1998}). Un
+país que forma técnicos sin laboratorios ni pensamiento crítico obtiene
+mano de obra barata y dócil, útil para quien contrata, pero no
+ciudadanos capaces de exigir.
+
+Por eso la responsabilidad es de quienes deciden el presupuesto y lo
+administran: el Gobierno nacional, el Ministerio de Educación y el
+Gobierno Regional. Y por eso la respuesta no puede ser individual. Si lo
+que debilita a la educación pública es la dispersión de quienes la
+necesitan, lo que la defiende es su unidad.
+
+\section{La unidad como respuesta}\label{la-unidad-como-respuesta}
+
+\textbf{Nadie nos ha regalado nada: todo lo que existe se consiguió con
+organización y esfuerzo.} Cada instituto, por su cuenta, puede presentar
+un oficio, pero un consejo estudiantil aislado es fácil de ignorar. Lo
+que propone el pronunciamiento es dar el paso siguiente: constituir una
+\textbf{Coordinadora de estudiantes de institutos de Ayacucho}, un
+espacio que reúna a los consejos de los tecnológicos y pedagógicos
+públicos de las once provincias, que articule sus demandas, les dé
+seguimiento y exija respuesta a sus autoridades y a quienes los
+representan en el Congreso y en el Gobierno Regional.
+
+Una coordinadora así sirve para tres cosas. Primero, para hablar con una
+sola voz y con datos: un pliego regional pesa más que veinte oficios
+sueltos. Segundo, para vigilar que se cumpla lo que la ley ya manda,
+como el 10 \% del canon o los recursos del artículo 61, y para pedir que
+esa garantía alcance también a los tecnológicos. Tercero, para formar
+dirigentes que conozcan sus derechos y las normas que los respaldan.
+
+\subsection{Las demandas, una por una}\label{las-demandas-una-por-una}
+
+La Tabla~\ref{tbl-demandas} ordena el pliego del pronunciamiento: cada
+demanda con la norma que la respalda y la autoridad que debe responder.
+
+\begin{ThreePartTable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\caption{Demandas estudiantiles, su base y a quién se le
+piden}\label{tbl-demandas}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Demanda
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Base
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+A quién se le pide
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Demanda
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Base
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+A quién se le pide
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Equipamiento de laboratorios y maquinaria agrícola, como tractores &
+Condiciones básicas de calidad (Ley 30512, art. 24); en los pedagógicos,
+art. 61 & Gobierno Regional y Ministerio de Educación \\
+Equipos para Enfermería Técnica y las demás carreras & Condiciones
+básicas de calidad (Ley 30512, art. 24) & Gobierno Regional y Ministerio
+de Educación \\
+Culminación de la nueva infraestructura & Expedientes técnicos ya
+formulados; en los pedagógicos, Ley 30512, art. 61 & Gobierno
+Regional \\
+Bibliotecas y salas de informática con internet en toda la institución &
+Condiciones básicas de calidad (Ley 30512, art. 24) & Gobierno Regional
+y Ministerio de Educación \\
+Que la garantía de recursos del art. 61 alcance también a los institutos
+tecnológicos públicos & Ley 30512, art. 61 (hoy solo para los
+pedagógicos) & Congreso de la República \\
+Atención a la salud mental y áreas de psicología & Unidad de bienestar y
+empleabilidad (Ley 30512, art. 29) & Dirección del instituto y Gobierno
+Regional \\
+Bienestar estudiantil: comedor y residencia & Unidad de bienestar y
+empleabilidad (Ley 30512, art. 29) & Gobierno Regional y Ministerio de
+Educación \\
+Movilidad estudiantil & Política de acceso equitativo de la educación
+superior & Gobierno Regional y municipalidades \\
+Contratación de personal de vigilancia & Presupuesto institucional &
+Gobierno Regional \\
+El 10 \% del canon para investigación en institutos & Ley 30512, tercera
+disposición complementaria modificatoria & Gobierno Regional \\
+\end{longtable}
+
+\noindent \emph{Nota.} Elaboración~propia a partir del pronunciamiento
+estudiantil y de la Ley 30512.
+
+\end{ThreePartTable}
+
+\section{Nadie nos ha regalado nada}\label{nadie-nos-ha-regalado-nada}
+
+\textbf{Un pueblo sin educación no tiene futuro, y la educación pública
+no se defiende sola.} Las cifras muestran un Estado que invierte la
+mitad que sus vecinos y que entrega a los institutos la quinta parte de
+lo que destina a la educación superior. Las normas muestran que casi
+todo lo que se pide ya es una obligación. Lo que falta es la fuerza
+organizada que haga cumplir esa obligación.
+
+Esa fuerza no la va a poner nadie desde arriba. La tienen los
+estudiantes de los institutos de Ayacucho, si se unen.
+
+\textbf{¡Por la unidad de los estudiantes de institutos de la región de
+Ayacucho!} \textbf{¡Sin luchas no hay victorias!}
+
+\section{Referencias}\label{referencias}
+
+\protect\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-andinaInstitutosPublicosOfrecen2025}
+Agencia Andina. (2025, abril 7). \emph{Institutos públicos ofrecen 48
+000 vacantes para estudiar gratis una carrera técnica}.
+\url{https://andina.pe/agencia/noticia-institutos-publicos-ofrecen-48000-vacantes-para-estudiar-gratis-una-carrera-tecnica-1025015.aspx}
+
+\bibitem[\citeproctext]{ref-bourdieuEsenciaNeoliberalismo101}
+Bourdieu, P. (1998). La esencia del neoliberalismo. \emph{Le Monde
+Diplomatique}.
+
+\bibitem[\citeproctext]{ref-peruDecretoLegislativo8821996}
+Decreto Legislativo N.° 882, Ley de Promoción de la Inversión en la
+Educación, Diario Oficial El Peruano (1996).
+
+\bibitem[\citeproctext]{ref-elperuanoMineduEvaluaPositivamente2023}
+El Peruano. (2023, diciembre 5). \emph{Minedu evalúa positivamente los
+resultados de la prueba PISA 2022 para Perú}.
+\url{https://www.elperuano.pe/noticia/230571-minedu-evalua-positivamente-los-resultados-de-la-prueba-pisa-2022-para-peru}
+
+\bibitem[\citeproctext]{ref-gestionCualesSon105Institutos2023}
+Gestión. (2023, octubre 16). \emph{¿Cuáles son los 105 institutos
+superiores licenciados por Minedu?}
+\url{https://gestion.pe/peru/cuales-son-los-105-institutos-superiores-licenciados-por-minedu-noticia/}
+
+\bibitem[\citeproctext]{ref-guardiaquispeInstitutosEscuelasDestinaran2024}
+Guardia Quispe, K. (2024, junio 13). \emph{Institutos y escuelas
+destinarán US\$ 1000 millones para potenciar oferta educativa este año}.
+Gestión.
+\url{https://gestion.pe/economia/empresas/institutos-y-escuelas-destinaran-us-1000-mllns-para-potenciar-oferta-educativa-este-ano-educacion-superior-empresas-peru-asiste-minedu-carreras-tecnicas-noticia/}
+
+\bibitem[\citeproctext]{ref-ministeriodeeducacionLeyNdeg305122016}
+Ley N.° 30512, Ley de Institutos y Escuelas de Educación Superior y de
+la Carrera Pública de sus Docentes, Diario Oficial El Peruano (2016).
+
+\bibitem[\citeproctext]{ref-mariateguiSieteEnsayosInterpretacion2007}
+Mariátegui, J. C. (2007). \emph{Siete ensayos de interpretación de la
+realidad peruana} (3.ª ed.). Fundación Biblioteca Ayacucho.
+
+\bibitem[\citeproctext]{ref-ministeriodeeducacionPoliticaNacionalEducacion2018}
+Ministerio de Educación. (2020). \emph{Política Nacional de Educación
+Superior y Técnico-Productiva: resumen ejecutivo}. Ministerio de
+Educación.
+
+\end{CSLReferences}
+
+
+
+
+
+
+\end{document}

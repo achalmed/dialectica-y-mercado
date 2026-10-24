@@ -18,7 +18,226 @@ Incluye notas y tutoriales para mi futuro y espero que también para ti.&lt;br&g
 <link>https://dialectica-y-mercado.netlify.app/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 09 Jun 2023 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 24 Oct 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Institutos públicos de Ayacucho: sin lucha no hay victoria</title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <link>https://dialectica-y-mercado.netlify.app/posts/2026-10-24-unidad-estudiantes-institutos-ayacucho/</link>
+  <description><![CDATA[ 
+
+
+<style>
+  :root {
+    --primary-color: ;
+  }
+
+  #title-block-header {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .title-block-content {
+    position: relative;
+    padding-top: 60px;
+    /* Reducido de 130px */
+    padding-bottom: 60px;
+    /* Reducido de 130px */
+    max-width: 752px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+</style>
+
+
+
+
+<p>En el Perú, solo tres de cada diez jóvenes que terminan el colegio llegan a la educación superior <span class="citation" data-cites="ministeriodeeducacionPoliticaNacionalEducacion2018">(Ministerio de Educación, 2020)</span>. Para quien viene de una familia pobre, de Pausa, de Coracora, de Huanta o de un distrito al que el bus llega una vez al día, esa puerta casi siempre es un <strong>instituto público</strong>: un tecnológico o un pedagógico que no cobra pensión y queda cerca de casa. Este texto parte de un pronunciamiento de estudiantes de institutos de Ayacucho que circula con una consigna sencilla, <em>sin luchas no hay victorias</em>, y lo desarrolla con cifras, normas y algunas lecturas de fondo.</p>
+<p>La idea es responder tres preguntas que el pronunciamiento plantea: por qué los institutos públicos están como están, de quién es la responsabilidad y qué pueden hacer quienes estudian en ellos. Al final hay una lista de demandas, cada una con la norma que la respalda y la autoridad a la que se le pide.</p>
+<section id="la-puerta-que-el-estado-deja-entreabierta" class="level1">
+<h1>La puerta que el Estado deja entreabierta</h1>
+<p><strong>Estudiar en un instituto es, para miles de jóvenes, la única forma realista de mejorar su vida.</strong> La educación superior en el Perú es desigual desde la entrada: de los egresados de secundaria del 20 % más pobre de la población, solo el 21,8 % pasa a la educación superior; del 20 % más rico, el 52,7 % <span class="citation" data-cites="ministeriodeeducacionPoliticaNacionalEducacion2018">(Ministerio de Educación, 2020)</span>. La misma política nacional reconoce algo más: los egresados de la educación superior tecnológica son más buscados en el mercado laboral que los universitarios, aunque la matrícula se concentra en las universidades.</p>
+<p>El instituto público cumple entonces una función que nadie más cumple. En el periodo 2025-I, 343 institutos tecnológicos públicos ofrecieron 48 196 vacantes en todo el país, con carreras de tres años y sin mensualidades <span class="citation" data-cites="andinaInstitutosPublicosOfrecen2025">(Agencia Andina, 2025)</span>. Es una puerta abierta, pero solo a medias. En recorridos recientes por institutos del sur de Ayacucho vi locales de adobe con techos que dejan pasar el agua, una carrera de Enfermería con un solo microscopio para todos sus estudiantes y domos de emergencia guardados en un almacén, a la espera de que alguien los arme. Casi todos esos institutos tienen ya su expediente técnico; lo que falta es que alguien lo financie.</p>
+</section>
+<section id="la-crisis-no-empieza-en-el-aula" class="level1">
+<h1>La crisis no empieza en el aula</h1>
+<p><strong>Los problemas de los institutos no se explican solo mirando al instituto.</strong> José Carlos Mariátegui lo escribió hace casi un siglo: «El problema de la enseñanza no puede ser bien comprendido en nuestro tiempo, si no es considerado un problema económico y como un problema social» <span class="citation" data-cites="mariateguiSieteEnsayosInterpretacion2007">(Mariátegui, 2007, p. 129)</span>. Un país que vive una crisis económica, política y social la reproduce en sus escuelas, y una educación pobre devuelve al país trabajadores con menos herramientas.</p>
+<p>Los resultados de la prueba PISA 2022 muestran ese círculo. Apenas el 34 % de los estudiantes peruanos de quince años alcanzó el nivel mínimo en Matemática, el 47 % en Ciencia y el 50 % en Lectura <span class="citation" data-cites="elperuanoMineduEvaluaPositivamente2023">(El Peruano, 2023)</span>. Esos jóvenes son los que, tres años después, llegan a un instituto que debe nivelarlos con menos recursos que una universidad. Cuando desde el gobierno se dice que no se atiende a la población porque «no les quieren dar las facultades», la pregunta del pronunciamiento es legítima: ¿hasta cuándo se va a postergar la educación pública en todos sus niveles?</p>
+</section>
+<section id="el-abandono-en-cifras-poco-y-mal-repartido" class="level1">
+<h1>El abandono en cifras: poco y mal repartido</h1>
+<p><strong>El Estado invierte poco en la educación superior y lo poco que invierte no llega a los institutos.</strong> En 2017, el gasto por estudiante de educación terciaria en el Perú fue el 10,9 % del PBI por habitante; en Chile fue el 20,3 % y en Colombia el 20,4 % <span class="citation" data-cites="ministeriodeeducacionPoliticaNacionalEducacion2018">(Ministerio de Educación, 2020)</span>. Dicho de otro modo, por cada estudiante de educación superior, nuestros vecinos invierten casi el doble.</p>
+<p>Además, el reparto es desigual. Del gasto público en educación superior y técnico-productiva, el 73,4 % va a las universidades, el 20,4 % a los institutos y escuelas tecnológicos, pedagógicos y artísticos, y el 6,2 % a los centros técnico-productivos <span class="citation" data-cites="ministeriodeeducacionPoliticaNacionalEducacion2018">(Ministerio de Educación, 2020)</span>. Por eso, cuando un estudiante de un tecnológico agropecuario pide un tractor o un laboratorio, no está pidiendo un lujo: está pidiendo una parte de lo que ya recibe la universidad de al lado.</p>
+</section>
+<section id="del-decreto-legislativo-882-al-mercado-de-títulos" class="level1">
+<h1>Del Decreto Legislativo 882 al mercado de títulos</h1>
+<p><strong>En los noventa, el país decidió que la educación también podía ser un negocio.</strong> El Decreto Legislativo 882 de 1996 reconoció a toda persona el derecho a fundar y conducir instituciones educativas «con o sin finalidad lucrativa» y les extendió las garantías de la inversión privada <span class="citation" data-cites="peruDecretoLegislativo8821996">(Decreto Legislativo N.° 882, Ley de Promoción de la Inversión en la Educación, 1996, arts. 2 y 7)</span>. La oferta privada creció rápido; la pública no recibió una inversión que la acompañara.</p>
+<p>El resultado se ve hoy en la matrícula. Según el gremio de los institutos privados, de cada diez estudiantes de la educación superior tecnológica, siete estudian en un instituto privado <span class="citation" data-cites="guardiaquispeInstitutosEscuelasDestinaran2024">(Guardia Quispe, 2024)</span>. Y en la calidad: de los 105 institutos tecnológicos licenciados entre 2018 y 2023, solo 11 eran públicos <span class="citation" data-cites="gestionCualesSon105Institutos2023">(Gestión, 2023)</span>. El licenciamiento es la autorización para funcionar que se obtiene cumpliendo condiciones básicas de calidad <span class="citation" data-cites="ministeriodeeducacionLeyNdeg305122016">(Ley N.° 30512, Ley de Institutos y Escuelas de Educación Superior y de la Carrera Pública de sus Docentes, 2016, art. 24)</span>; si el instituto público no tiene laboratorios, bibliotecas ni locales adecuados, no se licencia, y el joven que no puede pagar un privado se queda sin alternativa. Así, la privatización no solo abre negocios: también cierra puertas, sobre todo en las zonas rurales.</p>
+</section>
+<section id="lo-que-la-ley-ya-promete-y-no-se-cumple" class="level1">
+<h1>Lo que la ley ya promete y no se cumple</h1>
+<p><strong>Casi todo lo que piden los estudiantes ya está escrito en la ley.</strong> La Ley 30512, que rige los institutos y escuelas desde 2016, obliga al Ministerio de Educación y a los gobiernos regionales a considerar en sus presupuestos, «bajo responsabilidad de ley», los recursos necesarios para la infraestructura, el mobiliario y el equipamiento de las escuelas pedagógicas públicas <span class="citation" data-cites="ministeriodeeducacionLeyNdeg305122016">(Ley N.° 30512, Ley de Institutos y Escuelas de Educación Superior y de la Carrera Pública de sus Docentes, 2016, art. 61)</span>. Para los institutos tecnológicos públicos no hay una cláusula igual: la ley les exige condiciones básicas de calidad para licenciarse, pero no obliga a nadie a darles los medios para cumplirlas, y esa omisión también es una demanda. La ley manda, además, que cada instituto y escuela pública tenga una unidad de bienestar y empleabilidad, con orientación, tutoría y consejería, y con la atención de los casos de acoso o discriminación <span class="citation" data-cites="ministeriodeeducacionLeyNdeg305122016">(Ley N.° 30512, Ley de Institutos y Escuelas de Educación Superior y de la Carrera Pública de sus Docentes, 2016, art. 29)</span>. Y modificó la Ley de Canon para que cada gobierno regional entregue el 10 % del canon que recibe a los institutos y escuelas de su región, destinado a la investigación científica y tecnológica <span class="citation" data-cites="ministeriodeeducacionLeyNdeg305122016">(Ley N.° 30512, Ley de Institutos y Escuelas de Educación Superior y de la Carrera Pública de sus Docentes, 2016, tercera disposición complementaria modificatoria)</span>.</p>
+<p>La trampa está en otra disposición de la misma ley: su implementación se financiaría con el presupuesto del Ministerio de Educación «sin demandar recursos adicionales al Tesoro Público» <span class="citation" data-cites="ministeriodeeducacionLeyNdeg305122016">(Ley N.° 30512, Ley de Institutos y Escuelas de Educación Superior y de la Carrera Pública de sus Docentes, 2016, décima cuarta disposición complementaria final)</span>. Se reformó el sistema, se le exigieron más condiciones de calidad y no se le dio más dinero para cumplirlas. La pregunta del pronunciamiento, ¿por qué no se quiere invertir en educación?, tiene aquí una respuesta concreta: porque se legisla sin presupuesto.</p>
+</section>
+<section id="por-qué-no-se-invierte-en-educación" class="level1">
+<h1>¿Por qué no se invierte en educación?</h1>
+<p><strong>El abandono de la educación pública no es un descuido: es coherente con un modelo.</strong> Pierre Bourdieu describió el neoliberalismo como una política que, en nombre de la eficiencia del mercado, impone la restricción del gasto público y la flexibilización del trabajo, y que funciona como «un programa de destrucción metódica de los colectivos» <span class="citation" data-cites="bourdieuEsenciaNeoliberalismo101">(Bourdieu, 1998)</span>. Un país que forma técnicos sin laboratorios ni pensamiento crítico obtiene mano de obra barata y dócil, útil para quien contrata, pero no ciudadanos capaces de exigir.</p>
+<p>Por eso la responsabilidad es de quienes deciden el presupuesto y lo administran: el Gobierno nacional, el Ministerio de Educación y el Gobierno Regional. Y por eso la respuesta no puede ser individual. Si lo que debilita a la educación pública es la dispersión de quienes la necesitan, lo que la defiende es su unidad.</p>
+</section>
+<section id="la-unidad-como-respuesta" class="level1">
+<h1>La unidad como respuesta</h1>
+<p><strong>Nadie nos ha regalado nada: todo lo que existe se consiguió con organización y esfuerzo.</strong> Cada instituto, por su cuenta, puede presentar un oficio, pero un consejo estudiantil aislado es fácil de ignorar. Lo que propone el pronunciamiento es dar el paso siguiente: constituir una <strong>Coordinadora de estudiantes de institutos de Ayacucho</strong>, un espacio que reúna a los consejos de los tecnológicos y pedagógicos públicos de las once provincias, que articule sus demandas, les dé seguimiento y exija respuesta a sus autoridades y a quienes los representan en el Congreso y en el Gobierno Regional.</p>
+<p>Una coordinadora así sirve para tres cosas. Primero, para hablar con una sola voz y con datos: un pliego regional pesa más que veinte oficios sueltos. Segundo, para vigilar que se cumpla lo que la ley ya manda, como el 10 % del canon o los recursos del artículo 61, y para pedir que esa garantía alcance también a los tecnológicos. Tercero, para formar dirigentes que conozcan sus derechos y las normas que los respaldan.</p>
+<section id="las-demandas-una-por-una" class="level2">
+<h2 class="anchored" data-anchor-id="las-demandas-una-por-una">Las demandas, una por una</h2>
+<p>La Tabla&nbsp;1 ordena el pliego del pronunciamiento: cada demanda con la norma que la respalda y la autoridad que debe responder.</p>
+<div id="tbl-demandas" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Elaboración propia a partir del pronunciamiento estudiantil y de la Ley 30512.">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-demandas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;1: Demandas estudiantiles, su base y a quién se le piden
+</figcaption>
+<div aria-describedby="tbl-demandas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Demanda</th>
+<th>Base</th>
+<th>A quién se le pide</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Equipamiento de laboratorios y maquinaria agrícola, como tractores</td>
+<td>Condiciones básicas de calidad (Ley 30512, art. 24); en los pedagógicos, art. 61</td>
+<td>Gobierno Regional y Ministerio de Educación</td>
+</tr>
+<tr class="even">
+<td>Equipos para Enfermería Técnica y las demás carreras</td>
+<td>Condiciones básicas de calidad (Ley 30512, art. 24)</td>
+<td>Gobierno Regional y Ministerio de Educación</td>
+</tr>
+<tr class="odd">
+<td>Culminación de la nueva infraestructura</td>
+<td>Expedientes técnicos ya formulados; en los pedagógicos, Ley 30512, art. 61</td>
+<td>Gobierno Regional</td>
+</tr>
+<tr class="even">
+<td>Bibliotecas y salas de informática con internet en toda la institución</td>
+<td>Condiciones básicas de calidad (Ley 30512, art. 24)</td>
+<td>Gobierno Regional y Ministerio de Educación</td>
+</tr>
+<tr class="odd">
+<td>Que la garantía de recursos del art. 61 alcance también a los institutos tecnológicos públicos</td>
+<td>Ley 30512, art. 61 (hoy solo para los pedagógicos)</td>
+<td>Congreso de la República</td>
+</tr>
+<tr class="even">
+<td>Atención a la salud mental y áreas de psicología</td>
+<td>Unidad de bienestar y empleabilidad (Ley 30512, art. 29)</td>
+<td>Dirección del instituto y Gobierno Regional</td>
+</tr>
+<tr class="odd">
+<td>Bienestar estudiantil: comedor y residencia</td>
+<td>Unidad de bienestar y empleabilidad (Ley 30512, art. 29)</td>
+<td>Gobierno Regional y Ministerio de Educación</td>
+</tr>
+<tr class="even">
+<td>Movilidad estudiantil</td>
+<td>Política de acceso equitativo de la educación superior</td>
+<td>Gobierno Regional y municipalidades</td>
+</tr>
+<tr class="odd">
+<td>Contratación de personal de vigilancia</td>
+<td>Presupuesto institucional</td>
+<td>Gobierno Regional</td>
+</tr>
+<tr class="even">
+<td>El 10 % del canon para investigación en institutos</td>
+<td>Ley 30512, tercera disposición complementaria modificatoria</td>
+<td>Gobierno Regional</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="nadie-nos-ha-regalado-nada" class="level1">
+<h1>Nadie nos ha regalado nada</h1>
+<p><strong>Un pueblo sin educación no tiene futuro, y la educación pública no se defiende sola.</strong> Las cifras muestran un Estado que invierte la mitad que sus vecinos y que entrega a los institutos la quinta parte de lo que destina a la educación superior. Las normas muestran que casi todo lo que se pide ya es una obligación. Lo que falta es la fuerza organizada que haga cumplir esa obligación.</p>
+<p>Esa fuerza no la va a poner nadie desde arriba. La tienen los estudiantes de los institutos de Ayacucho, si se unen.</p>
+<p><strong>¡Por la unidad de los estudiantes de institutos de la región de Ayacucho!</strong> <strong>¡Sin luchas no hay victorias!</strong></p>
+</section>
+<section id="referencias" class="level1">
+<h1>Referencias</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-andinaInstitutosPublicosOfrecen2025" class="csl-entry">
+Agencia Andina. (2025, abril 7). <em>Institutos públicos ofrecen 48 000 vacantes para estudiar gratis una carrera técnica</em>. <a href="https://andina.pe/agencia/noticia-institutos-publicos-ofrecen-48000-vacantes-para-estudiar-gratis-una-carrera-tecnica-1025015.aspx">https://andina.pe/agencia/noticia-institutos-publicos-ofrecen-48000-vacantes-para-estudiar-gratis-una-carrera-tecnica-1025015.aspx</a>
+</div>
+<div id="ref-bourdieuEsenciaNeoliberalismo101" class="csl-entry">
+Bourdieu, P. (1998). La esencia del neoliberalismo. <em>Le Monde Diplomatique</em>.
+</div>
+<div id="ref-peruDecretoLegislativo8821996" class="csl-entry">
+Decreto Legislativo N.° 882, Ley de Promoción de la Inversión en la Educación, Diario Oficial El Peruano (1996).
+</div>
+<div id="ref-elperuanoMineduEvaluaPositivamente2023" class="csl-entry">
+El Peruano. (2023, diciembre 5). <em>Minedu evalúa positivamente los resultados de la prueba PISA 2022 para Perú</em>. <a href="https://www.elperuano.pe/noticia/230571-minedu-evalua-positivamente-los-resultados-de-la-prueba-pisa-2022-para-peru">https://www.elperuano.pe/noticia/230571-minedu-evalua-positivamente-los-resultados-de-la-prueba-pisa-2022-para-peru</a>
+</div>
+<div id="ref-gestionCualesSon105Institutos2023" class="csl-entry">
+Gestión. (2023, octubre 16). <em>¿Cuáles son los 105 institutos superiores licenciados por Minedu?</em> <a href="https://gestion.pe/peru/cuales-son-los-105-institutos-superiores-licenciados-por-minedu-noticia/">https://gestion.pe/peru/cuales-son-los-105-institutos-superiores-licenciados-por-minedu-noticia/</a>
+</div>
+<div id="ref-guardiaquispeInstitutosEscuelasDestinaran2024" class="csl-entry">
+Guardia Quispe, K. (2024, junio 13). <em>Institutos y escuelas destinarán US$ 1000 millones para potenciar oferta educativa este año</em>. Gestión. <a href="https://gestion.pe/economia/empresas/institutos-y-escuelas-destinaran-us-1000-mllns-para-potenciar-oferta-educativa-este-ano-educacion-superior-empresas-peru-asiste-minedu-carreras-tecnicas-noticia/">https://gestion.pe/economia/empresas/institutos-y-escuelas-destinaran-us-1000-mllns-para-potenciar-oferta-educativa-este-ano-educacion-superior-empresas-peru-asiste-minedu-carreras-tecnicas-noticia/</a>
+</div>
+<div id="ref-ministeriodeeducacionLeyNdeg305122016" class="csl-entry">
+Ley N.° 30512, Ley de Institutos y Escuelas de Educación Superior y de la Carrera Pública de sus Docentes, Diario Oficial El Peruano (2016).
+</div>
+<div id="ref-mariateguiSieteEnsayosInterpretacion2007" class="csl-entry">
+Mariátegui, J. C. (2007). <em>Siete ensayos de interpretación de la realidad peruana</em> (3.ª ed.). Fundación Biblioteca Ayacucho.
+</div>
+<div id="ref-ministeriodeeducacionPoliticaNacionalEducacion2018" class="csl-entry">
+Ministerio de Educación. (2020). <em>Política Nacional de Educación Superior y Técnico-Productiva: resumen ejecutivo</em>. Ministerio de Educación.
+</div>
+</div>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-achalma2026" class="csl-entry quarto-appendix-citeas">
+Achalma, E. (2026). <em>Institutos públicos de Ayacucho: sin lucha no
+hay victoria</em>. <a href="https://dialectica-y-mercado.netlify.app/posts/2026-10-24-unidad-estudiantes-institutos-ayacucho/">https://dialectica-y-mercado.netlify.app/posts/2026-10-24-unidad-estudiantes-institutos-ayacucho/</a>
+</div></div></section></div> ]]></description>
+  <category>Economía política</category>
+  <category>Educación</category>
+  <guid>https://dialectica-y-mercado.netlify.app/posts/2026-10-24-unidad-estudiantes-institutos-ayacucho/</guid>
+  <pubDate>Sat, 24 Oct 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://dialectica-y-mercado.netlify.app/posts/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>La naturaleza humana</title>
   <dc:creator>Edison Achalma</dc:creator>

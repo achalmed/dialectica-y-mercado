@@ -1,0 +1,45 @@
+# _texto.yml — encargo del post (10 redaccion/prompt_01_encargo_de_texto); insumo, no se publica (empieza con «_»)
+encargo: >-
+  Entrada de blog que reescribe y mejora el pronunciamiento «¡Por la unidad de los estudiantes de institutos de la
+  región de Ayacucho! ¡Sin luchas no hay victorias!» de un grupo estudiantil: fácil de entender, sustentado con
+  bibliografía y con la estructura de ensayo de «La naturaleza humana» (Dialéctica y Mercado, 2023).
+genero: entrada_de_blog            # 07 produccion/contenido_web/prompt_01_metadatos_y_seo_del_post
+tipo_de_post: ensayo               # argumentativo, con fuentes
+blog: dialectica-y-mercado         # economía política y visión crítica: la educación como problema económico y social
+proposito: >-
+  Que el estudiante de un instituto público de Ayacucho entienda por qué su instituto está como está, con datos y
+  normas que pueda citar, y vea en la coordinadora de estudiantes un camino para exigir.
+destinatario: >-
+  Estudiantes y docentes de institutos tecnológicos y pedagógicos públicos de Ayacucho; lector general interesado en
+  la educación pública. No especialista.
+registro: claro, directo, en primera persona del plural en el cierre; sin jerga; sin rayas (comas)
+postura:
+  se_afirma:
+    - La educación superior no universitaria pública está desatendida: se invierte poco y se reparte mal.
+    - La reforma de los noventa (Decreto Legislativo 882) abrió la educación al lucro y el Estado no acompañó lo público.
+    - La Ley 30512 ya obliga al Estado a financiar infraestructura, equipamiento y bienestar: lo que falta es cumplirla.
+    - La unidad estudiantil organizada es el camino para exigirlo.
+  se_matiza:
+    - «Mano de obra barata» se presenta como consecuencia de un modelo, con Bourdieu, no como conspiración.
+    - El ranking OCDE de inversión del original no se pudo verificar: se reemplaza por el dato verificado (10,9 % del PBI per cápita frente a 20,3 % de Chile).
+  no_se_dice:
+    - Nada del despacho ni de un cargo público; las visitas a institutos se cuentan en primera persona, sin atribución institucional.
+    - Ningún llamado a la violencia; «lucha» es organización y exigencia.
+fuera_de_alcance: la educación universitaria y la básica, salvo como contexto
+criterios_de_aceptacion:
+  - Cada cifra tiene su fuente (Calibre y Zotero si está en la biblioteca; la web oficial si no).
+  - Las siete ideas y las demandas del original están, más claras y con su base legal.
+  - Longitudes del prompt 07/01 (título 40 a 65 caracteres, description 140 a 160, abstract 150 a 250 palabras).
+  - Sin muletillas prohibidas ni aperturas prohibidas; sin rayas.
+fuentes:
+  biblioteca:
+    - {calibre_id: 530, zotero: mariateguiSieteEnsayosInterpretacion2007, uso: "«El problema de la enseñanza… un problema económico y como un problema social», p. 129"}
+    - {calibre_id: 4465, zotero: ministeriodeeducacionPoliticaNacionalEducacion2018, uso: "acceso 3 de 10, quintiles 21,8 % y 52,7 %, gasto 10,9 % del PBI per cápita, 73,4 % del gasto a universidades"}
+    - {calibre_id: 10025, zotero: ministeriodeeducacionLeyNdeg305122016, uso: "art. 61 (recursos para infraestructura y equipamiento), unidad de bienestar, 10 % del canon, sin recursos adicionales"}
+    - {calibre_id: 1490, zotero: bourdieuEsenciaNeoliberalismo101, uso: "«programa de destrucción metódica de los colectivos»; restricción del gasto público"}
+  web_pendientes_de_ingresar_a_la_biblioteca:
+    - Decreto Legislativo 882 (1996), arts. 2 y 7
+    - Minedu en El Peruano (2023), resultados PISA 2022
+    - Gestión (2023), 105 IEST licenciados, 11 públicos
+    - Gestión (2024), cifras del gremio de institutos privados
+    - Andina (2025), 343 IEST públicos y 48 196 vacantes 2025-I
