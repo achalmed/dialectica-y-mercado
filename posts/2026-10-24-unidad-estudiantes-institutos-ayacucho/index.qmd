@@ -50,6 +50,7 @@ number-sections: false
 draft: false
 eval: false
 image: ../featured.jpg
+curso: economia_politica
 ---
 
 En el Perú, solo tres de cada diez jóvenes que terminan el colegio llegan a la educación superior
