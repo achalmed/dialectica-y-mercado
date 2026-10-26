@@ -4,7 +4,7 @@ estado: activo
 ---
 # dialectica-y-mercado/ — Filosofía y política: blog satélite del hub `web` (repo dialectica-y-mercado, dialectica-y-mercado.netlify.app)
 
-<!-- GENERADO por `web/scripts/pubs.py readme --aplicar` desde `web/_pubs/pubs.yml` (2026-10-21); no editar aquí: se regenera desde el hub -->
+<!-- GENERADO por `web/scripts/pubs.py readme --aplicar` desde `web/_pubs/pubs.yml` (2026-10-25); no editar aquí: se regenera desde el hub -->
 
 ## Qué es
 
@@ -33,7 +33,7 @@ cd ../.. && git add _pubs/dialectica-y-mercado && git commit -m "pubs: dialectic
 
 | carpeta | qué es | entradas |
 |---|---|--:|
-| `posts/` | entradas sin sección temática | 9 |
+| `posts/` | entradas sin sección temática | 10 |
 | `_quarto.yml`, `index.qmd`, `404.qmd`, `_contenido-inicio.qmd`, `_contenido-final.qmd` | configuración y portada propias del blog | |
 | `assets/scss/`, `assets/js/`, `assets/css/global.css`, `assets/css/components/`, `_extensions/`, `_filters/apa-floats-html.lua`, `scripts/build-page-css.sh` | tema propagado desde el hub por `sync-theme-pubs.sh`: no se edita aquí | |
 | `assets/img/`, `assets/fonts/`, `assets/gtm-*.html`, `assets/interactions.html`, `assets/scss/05-pages/`, `assets/css/pages/`, `_filters/_metadata-pdf.lua`, `_partials/` | propios del blog (no los escribe la sincronización) | |
@@ -41,7 +41,7 @@ cd ../.. && git add _pubs/dialectica-y-mercado && git commit -m "pubs: dialectic
 | `THEME_VERSION` | sello del tema: commit del hub y sha256 del conjunto; lo escribe `sync-theme-pubs.sh --aplicar` (GENERADO) | |
 | `netlify.toml` | configuración de Netlify: publica `_site/` sin comando de build | |
 
-9 entradas. Cada entrada es `<sección>/AAAA-MM-DD-slug/index.qmd` con frontmatter apaquarto y fecha ISO;
+10 entradas. Cada entrada es `<sección>/AAAA-MM-DD-slug/index.qmd` con frontmatter apaquarto y fecha ISO;
 sus metadatos se editan en masa desde `scripts-quarto` (`metadata_manager`).
 
 ## Documentación
