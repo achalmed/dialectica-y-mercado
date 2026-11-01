@@ -37,7 +37,7 @@ fuentes:
     - {calibre_id: 530, zotero: mariateguiSieteEnsayosInterpretacion2007, uso: "«El problema de la enseñanza… un problema económico y como un problema social», p. 129"}
     - {calibre_id: 10025, zotero: ministeriodeeducacionLeyNdeg305122016, uso: "arts. 24-25, 29 f, 57, 61, 63; disposiciones 3.ª modificatoria, 7.ª y 14.ª transitorias, 13.ª final"}
     - {calibre_id: 1490, zotero: bourdieuEsenciaNeoliberalismo101, uso: "«programme de destruction méthodique des collectifs», p. 3, traducción propia; fecha por corregir en Zotero: marzo de 1998"}
-  pendientes_de_ingresar_a_la_biblioteca:   # dueño: Edison; scripts-biblioteca, ingesta, con Calibre y Zotero cerrados
+  pendientes_de_ingresar_a_la_biblioteca:   # dueño: Edison; biblioteca-studio, ingesta, con Calibre y Zotero cerrados
     - Política Nacional de Educación Superior y Técnico-Productiva, completa (DS 012-2020-MINEDU), pp. 26-27, 46-47, 120
     - Minedu (2024), El Perú en PISA 2022, pp. 45-46
     - Ferreyra et al. (2017) y (2021), Banco Mundial
