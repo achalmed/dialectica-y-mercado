@@ -101,7 +101,7 @@ Incluye notas y tutoriales para mi futuro y espero que también para ti.&lt;br&g
 <section id="los-institutos-públicos-de-ayacucho-uno-por-uno" class="level1">
 <h1>Los institutos públicos de Ayacucho, uno por uno</h1>
 <p>Ayacucho tiene 16 institutos tecnológicos públicos del sector Educación, uno o más en cada una de sus once provincias, además de la escuela técnica de la Policía Nacional en Huamanga. Tiene también cinco escuelas pedagógicas públicas y dos escuelas de formación artística públicas <span class="citation" data-cites="ministeriodeeducacionPadronInstitucionesEducativas2025">(Ministerio de Educación, 2025a)</span>. La Tabla&nbsp;1 muestra los tecnológicos, con su matrícula y si tienen licencia.</p>
-<div id="tbl-ayacucho" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-twocolumn="true" data-apa-note="Matrícula: padrón del Censo Educativo 2025 del Ministerio de Educación. Licencia: lista oficial de institutos licenciados del Ministerio de Educación, con corte al 23 de junio de 2026. No incluye la escuela técnica de la Policía Nacional, que depende de otro sector.">
+<div id="tbl-ayacucho" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Matrícula: padrón del Censo Educativo 2025 del Ministerio de Educación. Licencia: lista oficial de institutos licenciados del Ministerio de Educación, con corte al 23 de junio de 2026. No incluye la escuela técnica de la Policía Nacional, que depende de otro sector." data-apa-twocolumn="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ayacucho-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;1: Institutos tecnológicos públicos del sector Educación en Ayacucho
@@ -236,7 +236,7 @@ Tabla&nbsp;1: Institutos tecnológicos públicos del sector Educación en Ayacuc
 <p>Para hablar de dinero con precisión hay que distinguir tres medidas. El <em>gasto por estudiante</em> compara cuánto invierte un país en cada estudiante, en relación con su ingreso por habitante. El <em>presupuesto institucional modificado</em> (PIM) es lo que se asigna en el año, después de los cambios. El <em>devengado</em> es lo que efectivamente se gastó. Y dentro del gasto conviene separar el de funcionamiento (sueldos, servicios, materiales) del de inversión (obras y equipos nuevos).</p>
 <p><strong>Poco en comparación con los vecinos.</strong> En 2017, último año con dato para el Perú, el gasto público por estudiante de educación terciaria fue el 10,9 % del producto bruto interno (PBI) por habitante, frente a 20,3 % en Chile y 20,4 % en Colombia <span class="citation" data-cites="bancomundialGastoPublicoEstudiante2026">(Banco Mundial, 2026)</span>. Por cada estudiante de educación superior, el Estado peruano invertía, en proporción a su economía, algo más de la mitad que sus vecinos.</p>
 <p><strong>Mejor repartido que antes, pero todavía desigual.</strong> La Tabla&nbsp;2 muestra cómo se distribuye el presupuesto público de la educación superior y técnico-productiva.</p>
-<div id="tbl-gasto" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-twocolumn="true" data-apa-note="Elaboración propia con la Consulta Amigable del MEF (Ministerio de Economía y Finanzas, 2026), todos los niveles de gobierno; el dato de 2019 coincide con el de la política nacional (Ministerio de Educación, 2020, pp. 46-47). Institutos: institutos y escuelas, grupo funcional 0108, que reúne tecnológicos, pedagógicos y artísticos. CETPRO: centros de educación técnico-productiva. No incluye el grupo de infraestructura y equipamiento, que el sistema no reparte por tipo de institución. Montos nominales.">
+<div id="tbl-gasto" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Elaboración propia con la Consulta Amigable del MEF (Ministerio de Economía y Finanzas, 2026), todos los niveles de gobierno; el dato de 2019 coincide con el de la política nacional (Ministerio de Educación, 2020, pp. 46-47). Institutos: institutos y escuelas, grupo funcional 0108, que reúne tecnológicos, pedagógicos y artísticos. CETPRO: centros de educación técnico-productiva. No incluye el grupo de infraestructura y equipamiento, que el sistema no reparte por tipo de institución. Montos nominales." data-apa-twocolumn="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-gasto-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;2: Distribución del presupuesto público de la educación superior y técnico-productiva
@@ -283,7 +283,7 @@ Tabla&nbsp;2: Distribución del presupuesto público de la educación superior y
 <section id="una-cronología-breve" class="level2">
 <h2 class="anchored" data-anchor-id="una-cronología-breve">Una cronología breve</h2>
 <p>La Tabla&nbsp;3 resume las normas que importan para este análisis y su situación a octubre de 2026.</p>
-<div id="tbl-normas" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-twocolumn="true" data-apa-note="Elaboración propia a partir de los textos publicados en el diario oficial El Peruano.">
+<div id="tbl-normas" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Elaboración propia a partir de los textos publicados en el diario oficial El Peruano." data-apa-twocolumn="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-normas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;3: Normas sobre los institutos públicos, de 1996 a 2022
@@ -384,7 +384,7 @@ Tabla&nbsp;3: Normas sobre los institutos públicos, de 1996 a 2022
 <section id="agenda-regional-de-demandas" class="level1">
 <h1>Agenda regional de demandas</h1>
 <p>La Tabla&nbsp;4 convierte el pliego del pronunciamiento en una matriz de seguimiento. Distingue las demandas inmediatas, que se resuelven con presupuesto, de las estructurales, que requieren cambiar una norma. Todas están hoy en estado <em>pendiente</em>: documentarlas es la primera tarea de la coordinadora.</p>
-<div id="tbl-demandas" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-twocolumn="true" data-apa-note="Elaboración propia a partir del pronunciamiento estudiantil, la Ley N.° 30512 (2016) y la Ley N.° 27867 (2002). GR: Gobierno Regional de Ayacucho; DREA: Dirección Regional de Educación de Ayacucho.">
+<div id="tbl-demandas" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Elaboración propia a partir del pronunciamiento estudiantil, la Ley N.° 30512 (2016) y la Ley N.° 27867 (2002). GR: Gobierno Regional de Ayacucho; DREA: Dirección Regional de Educación de Ayacucho." data-apa-twocolumn="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-demandas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;4: Matriz regional de seguimiento de las demandas estudiantiles
@@ -484,10 +484,10 @@ Decreto Supremo N.° 010-2017-MINEDU. (2017). <em>Reglamento de la Ley N.° 3051
 Decreto Supremo N.° 021-2019-JUS. (2019). <em>Texto Único Ordenado de la Ley N.° 27806, Ley de Transparencia y Acceso a la Información Pública</em>. Diario Oficial El Peruano.
 </div>
 <div id="ref-ferreyraCrossroadsHigherEducation2017" class="csl-entry">
-Ferreyra, M. M., Avitabile, C., Botero Álvarez, J., Haimovich Paz, F., &amp; Urzúa, S. (2017). <em>At a crossroads: Higher education in <span>Latin America</span> and the <span>Caribbean</span></em>. Banco Mundial. <a href="https://doi.org/10.1596/978-1-4648-1014-5">https://doi.org/10.1596/978-1-4648-1014-5</a>
+Ferreyra, M. M., Avitabile, C., Botero Álvarez, J., Haimovich Paz, F. y Urzúa, S. (2017). <em>At a crossroads: Higher education in <span>Latin America</span> and the <span>Caribbean</span></em>. Banco Mundial. <a href="https://doi.org/10.1596/978-1-4648-1014-5">https://doi.org/10.1596/978-1-4648-1014-5</a>
 </div>
 <div id="ref-ferreyraFastTrackNew2021" class="csl-entry">
-Ferreyra, M. M., Dinarte Díaz, L., Urzúa, S., &amp; Bassi, M. (2021). <em>The fast track to new skills: Short-cycle higher education programs in <span>Latin America</span> and the <span>Caribbean</span></em>. Banco Mundial. <a href="https://doi.org/10.1596/978-1-4648-1706-9">https://doi.org/10.1596/978-1-4648-1706-9</a>
+Ferreyra, M. M., Dinarte Díaz, L., Urzúa, S. y Bassi, M. (2021). <em>The fast track to new skills: Short-cycle higher education programs in <span>Latin America</span> and the <span>Caribbean</span></em>. Banco Mundial. <a href="https://doi.org/10.1596/978-1-4648-1706-9">https://doi.org/10.1596/978-1-4648-1706-9</a>
 </div>
 <div id="ref-peruLeyOrganicaGobiernos2002" class="csl-entry">
 Ley N.° 27867. (2002). <em>Ley Orgánica de Gobiernos Regionales</em>. Diario Oficial El Peruano. <a href="https://cdn.www.gob.pe/uploads/document/file/9590889/7851250-ley-n-27867-ley-organica-de-gobiernos-regionales.pdf">https://cdn.www.gob.pe/uploads/document/file/9590889/7851250-ley-n-27867-ley-organica-de-gobiernos-regionales.pdf</a>
@@ -523,7 +523,7 @@ Ministerio de Educación. (2026a). <em>Lista de 246 institutos de educación sup
 Ministerio de Educación. (2026b, mayo 14). <em>Región Ayacucho logra el licenciamiento del 100 % de sus escuelas pedagógicas públicas (Nota de prensa N.° 026-2026)</em>. <a href="https://www.gob.pe/institucion/minedu/noticias/1390506">https://www.gob.pe/institucion/minedu/noticias/1390506</a>
 </div>
 <div id="ref-yamadaEducacionSuperiorEmpleo2017" class="csl-entry">
-Yamada, G., &amp; Lavado, P. (Eds.). (2017). <em>Educación superior y empleo en el <span>Perú</span>: una brecha persistente</em>. Universidad del Pacífico.
+Yamada, G. y Lavado, P. (Eds.). (2017). <em>Educación superior y empleo en el <span>Perú</span>: una brecha persistente</em>. Universidad del Pacífico.
 </div>
 </div>
 <style>
